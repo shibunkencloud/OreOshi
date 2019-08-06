@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/white.jpg"  ]
+[preload  storage="./data/fgimage/default/0.png"  ]
+[preload  storage="./data/fgimage/default/suzune.png"  ]
+[preload  storage="./data/fgimage/default/ロトカ　練習着　口閉じ笑顔.png"  ]
+[return]
