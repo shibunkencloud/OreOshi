@@ -7,7 +7,7 @@
 
 [tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
-プレイするシナリオキャラを選択してください[p]
+プレイするシナリオキャラを選択してください、むんっ！[p]
 [_tb_end_text]
 
 [clickable  storage="cha_sel.ks"  x="984"  y="-5"  width="291"  height="776"  target="*sorane"  _clickable_img=""  ]
