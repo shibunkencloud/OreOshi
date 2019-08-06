@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_sorane2.ks]
 
-[mask time=10]
-[mask_off time=10]
 [tb_start_text mode=1 ]
 新しいシナリオです[p]
 [_tb_end_text]

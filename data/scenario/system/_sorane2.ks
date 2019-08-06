@@ -6,4 +6,4 @@
 [preload  storage="./data/bgimage/syokuin_room_exit000.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/kiri.png"  ]
 [preload  storage="./data/fgimage/chara/1/kyoton.png"  ]
-[return] 
+[return]
