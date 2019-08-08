@@ -38,6 +38,11 @@
 あんなところで何をするんだ？[p]
 というかさっきまでいた泉葉の姿が見えないが。[p]
 そのとき。[p]
+
+[_tb_end_text]
+
+[stopbgm  time="0"  fadeout="false"  ]
+[tb_start_text mode=1 ]
 なんとなく人の気配がした気がして[p]
 後ろを振り返った。[p]
 
@@ -58,6 +63,7 @@
 バチンッ！！[p]
 [_tb_end_text]
 
+[resetfont  ]
 [tb_start_text mode=1 ]
 「ありゃー、気絶しちゃった。出力あげすぎたかな。」[p]
 

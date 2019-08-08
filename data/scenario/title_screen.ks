@@ -36,7 +36,7 @@ sf.menu_flg=0
 [cm  ]
 [tb_keyconfig  flag="1"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="suzune.ks"  target="*str"  ]
+[jump  storage="rinka.ks"  target="*start"  ]
 [s  ]
 *load
 
