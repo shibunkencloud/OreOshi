@@ -2,6 +2,12 @@
 
 *console
 
+[tb_start_tyrano_code]
+[if exp=sf.da_flg==null]
+sf.ad_flg=0
+[endif]
+[_tb_end_tyrano_code]
+
 [bg  time="1000"  method="crossfade"  storage="white.jpg"  ]
 [edit  left="23"  top="80"  width="1071"  height="40"  size="20"  maxchars="200"  reflect="false"  name="f.con"  ]
 [button  storage="consoleDA.ks"  target="*submit"  graphic="submit.jpg"  width="84"  height="26"  x="1111"  y="90"  _clickable_img=""  ]
@@ -39,9 +45,16 @@
 *ai
 
 [tb_ptext_show  x="60"  y="120"  size="30"  color="0x000000"  time="1"  text="Admin_info"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[jump  storage="consoleDA.ks"  target="*ad2"  cond="sf.ad_flg==1"  ]
 [tb_ptext_show  x="60"  y="150"  size="30"  color="0x000000"  time="1"  text="Admin:Namiko"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [l  ]
-[tb_ptext_hide  time="1000"  ]
+[tb_ptext_hide  time="1"  ]
+[jump  storage="consoleDA.ks"  target="*console"  ]
+*ad2
+
+[tb_ptext_show  x="60"  y="150"  size="30"  color="0x000000"  time="1"  text="Admin:None"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[l  ]
+[tb_ptext_hide  time="1"  ]
 [jump  storage="consoleDA.ks"  target="*console"  ]
 *regai
 
