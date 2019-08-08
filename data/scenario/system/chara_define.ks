@@ -12,6 +12,8 @@
 [chara_new  name="rotoka"  jname="rotoka"  storage="chara/8/1.png"  ]
 ;namiko
 [chara_new  name="namiko"  jname="namiko"  storage="chara/9/namiko1_angry.png"  ]
+;rinka
+[chara_new  name="rinka"  jname="rinka"  storage="chara/10/Rinka_def.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

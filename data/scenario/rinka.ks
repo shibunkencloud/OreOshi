@@ -42,7 +42,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="undefined"  time="1000"  wait="true"  ]
+[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/rinka_komarigao.png"  width="393"  height="688"  left="440"  top="40"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #少女
 ……おにーさん、なに？[p]
@@ -62,7 +62,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #少女
 ふーん。おにーさんは学園祭のスタッフさんなんだ。[p]
@@ -87,7 +87,7 @@
 [s  ]
 *rinka11
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_okorigao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 り・ん・か！「さくらりんか」って読むの！[p]
@@ -98,7 +98,7 @@
 [jump  storage="rinka.ks"  target="*rinka1f"  ]
 *rinka12
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_teregao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 へ、へぇ～、そうなの…。[p]
@@ -110,6 +110,7 @@
 [jump  storage="rinka.ks"  target="*rinka1f"  ]
 *rinka13
 
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_okorigao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 り・ん・か！「さくらりんか」よ！「なしか」なわけないじゃない！馬鹿にしてるの！？[p]
@@ -125,7 +126,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_komarigao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 別に一人でいたっていいでしょ。[p]
@@ -141,7 +142,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 ふーん、おにーさんが連れて行ってくれるんだ。[p]
@@ -154,7 +155,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_egao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 じゃあ、さっさと行きましょ。[p]
@@ -165,7 +166,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 「え？」じゃないわよ。だっておにーさん、あたしと一緒に文化祭を回ってくれるんでしょ？[p]
@@ -195,7 +196,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_egao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 ん～～、おいし～♪[p]
@@ -210,7 +211,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 おにーさん、こっちこっちー！バスケ部の大盛り焼きそば屋だって！[p]
@@ -244,7 +245,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_okorigao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 もー、おにーさん遅い！[p]
@@ -255,7 +256,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 お仕事？一体どんなお仕事してるの？[p]
@@ -296,14 +297,14 @@
 
 [_tb_end_text]
 
-[chara_show  name="undefined"  time="1000"  wait="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  ]
 [tb_start_text mode=1 ]
 #梨花
 っ！？な、なによ急にびっくりしたじゃない！[p]
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 でもそうね、おにーさん、次行くわよ！[p]
 
@@ -319,7 +320,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_egao.png"  ]
 [tb_start_text mode=1 ]
 よし、ここに決めたわ[p]
 #桃也
@@ -328,7 +329,7 @@
 ！[p]
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 「どうかしたの？」じゃないわよ。1年D組のクイズ大会に行くわよ！[p]
@@ -370,6 +371,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_egao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 フフフ、やった～♪[p]
@@ -377,7 +379,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_komarigao.png"  ]
 [tb_start_text mode=1 ]
 …でも、メイド喫茶じゃなくて冥途喫茶？？どういうことなんだろう？[p]
 [_tb_end_text]
@@ -389,7 +391,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 別にルール違反はしてないし～。[p]
@@ -456,7 +458,7 @@
 よく来たな……ここは死後の世界だーっ！！[p]
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  ]
 [tb_start_text mode=1 ]
 #梨花
 ～～～～～～～～～っっ！！！？？[p]
@@ -501,7 +503,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 落ち着いた？ってそもそも取り乱してすらいないわよ！[p]
@@ -513,7 +515,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_teregao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 ～～～～～～～～～っっ！！！？？[p]
@@ -539,7 +541,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_komarigao.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 
