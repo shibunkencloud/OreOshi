@@ -1,30 +1,50 @@
 [_tb_system_call storage=system/_preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="school.jpg"  ]
-[tb_show_message_window] 
-[chara_mod  name="sorane"  time="10"  cross="true"  ]
-[chara_show  time="10"  wait="true"  ]
 [mask_off time=10]
-[tb_start_text mode=1 ]
-#少女
-ふーん。おにーさんは学園祭のスタッフさんなんだ。[p]
-で、どうしていきなり小学生に話しかけてきたの？[p]
+*til
 
-#
-まだ防犯ブザーから手を放してくれないのか…。[p]
-最近の小学生は恐ろしいな…。[p]
+[tb_start_tyrano_code]
+[if exp=sf.game_clea==null]
+sf.game_clea=0
+[endif]
+[_tb_end_tyrano_code]
 
-#桃也
-あ、あぁ、これ。[p]
-キミがこのハンカチを落とすところを見かけてね。[p]
+[tb_start_tyrano_code]
+[if exp=sf.menu_flg==null]
+sf.menu_flg=0
+[endif]
+[_tb_end_tyrano_code]
 
-#少女
-へぇ～、じゃあそのハンカチに名前書かれてない？[p]
+[jump  storage="unlimited_title_screen.ks"  target="*un-til"  cond="sf.menu_flg==1"  ]
+[hidemenubutton]
 
-[_tb_end_text]
+[tb_clear_images]
 
-[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらりか)って書いてあるよ。"  x="777"  y="295"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらりんか)って書いてあるよ。"  x="778"  y="341"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらなしか)…？って書いてあるよ。"  x="777"  y="388"  width=""  height=""  _clickable_img=""  ]
+[tb_keyconfig  flag="0"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano38.ogg"  ]
+[tb_hide_message_window  ]
+[bg  storage="title2.jpg"  ]
+*title
+
+[glink  color="black"  text="はじめから"  x="216"  y="354"  size="20"  target="*start"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  text="つづきから"  x="207"  y="451"  size="20"  target="*load"  width="109"  height="19"  _clickable_img=""  ]
+[s  ]
+*start
+
+[tb_eval  exp="sf.game_clea+=1"  name="game_clea"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[showmenubutton]
+
+[cm  ]
+[tb_keyconfig  flag="1"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[jump  storage="suzune.ks"  target="*str"  ]
+[s  ]
+*load
+
+[stopbgm  time="1000"  fadeout="true"  ]
+[cm  ]
+[showload]
+
+[jump  target="*title"  storage=""  ]
 [s  ]

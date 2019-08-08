@@ -8,6 +8,7 @@
 [preload  storage="./data/bgimage/BG20c_80.jpg"  ]
 [preload  storage="./data/bgimage/アセット_1.png"  ]
 [preload  storage="./data/fgimage/chara/7/嬉笑顔.png"  ]
+[preload  storage="./data/fgimage/chara/7/suzune.png"  ]
 [preload  storage="./data/fgimage/chara/7/照れ.png"  ]
 [preload  storage="./data/bgimage/black.jpg"  ]
 [return]

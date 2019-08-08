@@ -193,6 +193,24 @@
 「愛しの田鹿さんはすぐ教室出ていったぞー。お前ほんとに振られたのか？」[p]
 
 #桃也
+「そうか……」[p]
+
+
+[_tb_end_text]
+
+[glink  color="black"  storage="suzune.ks"  size="20"  text="誰に呼ばれていたのか聞く"  x="819"  y="317"  width=""  height=""  _clickable_img=""  target="*szune2"  ]
+[glink  color="black"  storage="suzune1.ks"  size="20"  text="すぐに涼音を追いかける"  x="819"  y="360"  width=""  height=""  _clickable_img=""  target="*start"  ]
+[s  ]
+*szune2
+
+[tb_start_text mode=1 ]
+#桃也
+「誰に呼ばれてたか分かるか？」[p]
+
+#江原
+「え、いやよく見えなかったけど、たぶん女子だったな。てかお前ほんとに振られたのか？」[p]
+
+#桃也
 「そうか。とりあえず歯ァ食いしばれ」[p]
 
 #江原
@@ -215,6 +233,11 @@
 #桃也
 「っと、良いところで出会ったな書記さん」[p]
 
+
+[_tb_end_text]
+
+[chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_tatie.png"  width="454"  height="642"  left="416"  top="67"  reflect="false"  ]
+[tb_start_text mode=1 ]
 #泉葉
 「あら、やっぱり私たち運命の糸で結ばれてるんですよセンパイ」[p]
 
@@ -276,10 +299,23 @@
 
 おれの感謝の気持ちを返せ。[p]
 
-#
-~~~[p]
 
+[_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_nakigao.png"  width="4961"  height="7016"  left="416"  top="67"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#泉葉
+「……」[p]
+
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
 
 #桃也
 「本当ちゃっかりしてるよあいつ……」[p]
@@ -402,8 +438,17 @@
 #桃也
 「なあ、涼音って……」[p]
 
+#桃也
+「お……」[p]
+
+まて、今聞いて大丈夫なのか？[p]
+『女の方が好きなのか？』なんてさっきのやりとりを聞いてないと絶対に出てこない質問だ。明らかに今聞くのはまずい。[p]
+誤魔化すしか……。[p]
+
+#桃也
+「お……」[p]
 #涼音
-「なに？」[p]
+「お？」[p]
 
 #桃也
 「おっぱいが好きなのか？」[p]
@@ -450,6 +495,8 @@
 #桃也
 「おう」[p]
 
+くそ、思いつかねえ……。[p]
+
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -486,25 +533,23 @@
 「おっけー。もうすぐ消灯だから早めに帰って来いよ」[p]
 
 #桃也
-「りょうかい」[p]
+「りょーかい」[p]
 
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="アセット_1.png"  ]
 [tb_start_text mode=1 ]
-
 えっと、ホテルの構造全然覚えてないんだが、自販機くらいあるよな？[p]
 多分エレベーターホール辺りに……お、やっぱりあっ———[p]
 
 #涼音
 「桃也？」[p]
-
+！？まさかこの声は……。[p]
 [_tb_end_text]
 
 [chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/微笑.png"  width="343"  height="617"  left="748"  top="50"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="eroge_(online-audio-converter.com).ogg"  ]
 [tb_start_text mode=1 ]
-
 #桃也
 「涼音！？どうしたんだこんな時間に」[p]
 
@@ -514,8 +559,7 @@
 #桃也
 「お、おう、そっか、おれもその、の、飲み物買おうと思ってな」[p]
 
-まさか会うとは思わなくて、おもいっきりどもってしまった。[p]
-
+落ち着けおれ。[p]
 
 
 #涼音
@@ -527,14 +571,16 @@
 慌てて財布を出して自販機にお金を入れる。[p]
 いや何焦ってんだ、普通に話せばいいだけだろう。[p]
 ガゴンッ、と出てきたお茶を取り出そうと屈んだタイミングで、[p]
-
+唐突に。[p]
 #涼音
 「私ね」[p]
 
-数秒、間を空けて。[p]
+#桃也
+唐突に。[p]
 
 #涼音
-「告白されたの」[p]
+「一週間前くらいかな。告白されたの」[p]
+
 
 #桃也
 唐突にカミングアウトされた。[p]
@@ -548,6 +594,7 @@
 
 #桃也
 落ち着け、深呼吸だ深呼吸。[p]
+…………。[p]
 ……よし。[p]
 いやよしじゃねえ。[p]
 
@@ -557,10 +604,14 @@
 
 [_tb_end_text]
 
-[chara_mod  name="suzune"  time="600"  cross="true"  storage="chara/7/微笑.png"  ]
 [tb_start_text mode=1 ]
 #涼音
-「うーん、応えてあげたいなと思ってる」[p]
+「うーん、[p]
+[_tb_end_text]
+
+[chara_mod  name="suzune"  time="600"  cross="true"  storage="chara/7/微笑.png"  ]
+[tb_start_text mode=1 ]
+応えてあげたいなと思ってる」[p]
 #桃也
 
 
@@ -628,6 +679,11 @@
 
 ちゃんと、向き合おう。[p]
 
+
+[_tb_end_text]
+
+[chara_mod  name="suzune"  time="600"  cross="true"  storage="chara/7/suzune.png"  ]
+[tb_start_text mode=1 ]
 #涼音
 「……なに？」[p]
 
@@ -682,9 +738,9 @@
 「だから。いいよって言ったの」[p]
 
 #桃也
-いいよ？イイヨ？[p]
+ツキアッテアゲテモイイヨ？[p]
 いいよって、あれだよな、イエスとか、オッケーとかと同義語のあれだよな。[p]
-え、なにがいいの？[p]
+え、いいの？[p]
 
 #桃也
 「！？？？？」[p]
@@ -696,11 +752,23 @@
 「いや、あ、そっちのいやじゃなくて、その」[p]
 
 #涼音
-「その？」[p]
+「じゃあちゃんと言ってあげる」[p]
 
 #桃也
-「よ、よろしくお願いします。これからは、その……恋人として」[p]
+涼音はまっすぐにおれの目を見て言った。[p]
 
+[_tb_end_text]
+
+[chara_mod  name="suzune"  time="600"  cross="true"  storage="chara/7/微笑.png"  ]
+[tb_start_text mode=1 ]
+#涼音
+「私も桃也のことが好き」[p]
+
+#桃也
+「っ」[p]
+
+#涼音
+「だから」[p]
 
 [_tb_end_text]
 
@@ -715,8 +783,17 @@
 涼音の笑顔を見るのは初めてではないが、普段滅多に笑わないやつの笑顔ってのは本当に破壊力やっばいな。[p]
 これがギャップ萌えってやつか。[p]
 
+#涼音
+「こちらこそよろしくお願いします」[p]
+
+涼音はそう言ってはにかむような笑顔を見せた。[p]
+……反則だろ。[p]
+涼音の笑顔を見るのは初めてではないが、普段滅多に笑わないやつの笑顔ってのは本当に破壊力やっばいな。[p]
+これがギャップ萌えってやつか。[p]
+
 #桃也
 「あれ、てか、後輩はどうすんだ！？」[p]
+
 
 
 [_tb_end_text]
@@ -755,31 +832,19 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_start_text mode=1 ]
-ふわっとシャンプーの香りが鼻をくすぐる。[p]
-こうやって抱きしめることでやっと、涼音と付き合えることになった実感が湧いてきた。[p]
-もう死んでもいいかもしれない。[p]
-いやいや、涼音を残して死ぬわけにはいかないか。[p]
-
 いろいろあったが、結局おれは涼音と付き合うことができた。[p]
 今思うとライブでの叫びはほんとに無駄だったな。[p]
 こんなことなら最初から直接告白しとけばよかった。[p]
 
 余談だが、このあと消灯時間をすっかり忘れていた俺たちは部屋に入れず、先生たちの見回りをやり過ごすため非常階段の踊り場で二人で震えながら過ごしたのは良い思い出だ。[p]
 
+
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="school_gym_c.jpg"  ]
 [tb_start_text mode=1 ]
-
 #
-
-
-【エピローグ】[p]
-
-
-
-
 
 『涼音―！！大好きだー！！！！』[p]
 
@@ -820,6 +885,8 @@
 FIN[p]
 
 [_tb_end_text]
+
+*fin
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_hide_message_window  ]
