@@ -41,7 +41,7 @@
 #涼音
 「居眠りなんていい度胸」[p]
 #桃也
-頭をさすりながら顔を上げると、同じクラスの[ruby text="た"]田[ruby text="じか"]鹿[ruby text="すず"]涼[ruby text="ね"]音【ルビ:たじかすずね】無表情で立っていた。[p]
+頭をさすりながら顔を上げると、同じクラスの[ruby text="た"]田[ruby text="じか"]鹿[ruby text="すず"]涼[ruby text="ね"]音無表情で立っていた。[p]
 #桃也
 「涼音……なんか用か？」[p]
 #涼音
@@ -176,6 +176,7 @@
 口数が少ない涼音とは真逆のタイプだなこの人。苦手かもしれない。[p]
 #空音
 「くく、表情がわかりやすいねえ羽村君は。まあいいよ、今回呼んだのは……」[p]
+#桃也
 ———コン、コン[p]
 と、空音が話している最中に生徒会室の扉を控えめにノックする音が響いた。[p]
 #空音
@@ -190,6 +191,7 @@
 ……ところどころ包帯を巻いているのは中二病とかそういうやつか？[p]
 #??
 「失礼しまーす。会長、顧問の方々からサインを、貰っ、て…………」[p]
+#桃也
 部屋に入ってきた女の子はソファーに座っているおれを見て固まってしまった。人見知りなんだろうか。[p]
 ん？この子どこかで……。[p]
 #空音
@@ -462,6 +464,6 @@
 [_tb_end_text]
 
 [glink  color="black"  storage="izuha1.ks"  size="20"  text="どうだろうな"  x="905"  y="315"  width=""  height=""  _clickable_img=""  target="*stat"  ]
-[glink  color="black"  storage="izuha2.ks"  size="20"  text="楽しかったよ"  x="905"  y="359"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="izuha2.ks"  size="20"  text="楽しかったよ"  x="905"  y="359"  width=""  height=""  _clickable_img=""  target="*stat"  ]
 [s  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

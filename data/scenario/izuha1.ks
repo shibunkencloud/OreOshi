@@ -156,7 +156,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="izuha"  time="600"  cross="true"  storage="chara/1/(^▽^)tere.png"  ]
+[chara_mod  name="izuha"  time="600"  cross="true"  storage="chara/11/izuha_otona_egao.png"  ]
 [tb_start_text mode=1 ]
 #
 「じゃー顔洗ったら朝ごはん作ってね！」[p]

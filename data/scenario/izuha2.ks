@@ -1,9 +1,5 @@
 [_tb_system_call storage=system/_izuha2.ks]
 
-[tb_start_text mode=1 ]
-新しいシナリオです[p]
-[_tb_end_text]
-
 *stat
 
 [chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_nakigao.png"  width="455"  height="643"  left="426"  top="52"  reflect="false"  ]
