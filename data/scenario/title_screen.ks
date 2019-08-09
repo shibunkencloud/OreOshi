@@ -36,7 +36,7 @@ sf.menu_flg=0
 [cm  ]
 [tb_keyconfig  flag="1"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="izuha.ks"  target="*stat"  ]
+[jump  storage="cha_sel.ks"  target="*stat"  ]
 [s  ]
 *load
 

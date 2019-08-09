@@ -4,9 +4,11 @@
 新しいシナリオです[p]
 [_tb_end_text]
 
+*stat
+
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="car-interior1_(online-audio-converter.com).ogg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #鈴木
 「おい羽村、そろそろ着くぜ。」[p]
@@ -611,7 +613,7 @@
 #桃也
 「あ、いたいた…って、おぉ！」[p]
 やっぱりバスケしてるときのロトカは凄いな。というかイイな。見てて飽きない、芸術的だ。[p]
-# 
+#
 …………[p]
 ………[p]
 ……[p]
@@ -702,7 +704,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_komarigao.png"  width="5000"  height="8000"  left="437"  top="65"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_komarigao.png"  width="424"  height="678"  left="439"  top="68"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「っし、………っ！」[p]
@@ -766,7 +768,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="school_gym_c.jpg"  ]
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_komarigao.png"  width="5000"  height="8000"  left="243"  top="106"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_komarigao.png"  width="415"  height="664"  left="444"  top="66"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
 「すんません先生、こいつ今日は体調悪いみたいなんで早退します！」[p]
@@ -901,7 +903,7 @@
 [_tb_end_text]
 
 [glink  color="black"  storage="rotoka.ks"  size="20"  text="ロトカを更に問い詰めることだ！"  target="*rotoka1"  x="717"  y="274"  width="367"  height="20"  _clickable_img=""  ]
-[glink  color="black"  storage="rotoka.ks"  size="20"  text="ロトカに今後の予定を聞くことだ！"  x="716"  y="318"  width="352"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="rotoka1.ks"  size="20"  text="ロトカに今後の予定を聞くことだ！"  x="716"  y="318"  width="352"  height="20"  _clickable_img=""  ]
 [s  ]
 *rotoka1
 
@@ -951,7 +953,7 @@
 #桃也
 「いいや、俺は引かないね！絶対に引かない！何回も言わせるなよ、俺はロトカを受け止める。ロトカに付き合う。確かに被食願望ってかなりマイナーだし、マジで噛みちぎったらそこが治るのに結構時間かかるだろうからそうそうできないだろうけど、噛みつくくらいだったらいくらでもやってやる！俺のロトカ愛をなめるなよ！」[p]
 
-# 
+#
 やっぱり今日はガラにもないことをやりすぎてる。こんなに怒鳴ったのいつぶりだ？でも、愛する人の為なら悪くないかもしれない。ロトカの目から流れる涙を見ていたら、そう思えてきた。[p]
 
 

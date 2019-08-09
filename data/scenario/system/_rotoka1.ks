@@ -1,0 +1,5 @@
+[preload  storage="./data/fgimage/chara/8/rotoka_def.png"  ]
+[preload  storage="./data/bgimage/127012884266216319447_BG382a.jpg"  ]
+[preload  storage="./data/bgimage/129759441592316220569_BG41b_1280.jpg"  ]
+[preload  storage="./data/fgimage/chara/8/rotoka_komarigao.png"  ]
+[return]
