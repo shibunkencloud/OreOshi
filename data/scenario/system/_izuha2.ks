@@ -1,0 +1,6 @@
+[preload  storage="./data/fgimage/chara/11/izuha_tatie.png"  ]
+[preload  storage="./data/fgimage/chara/11/izuha_waruikao.png"  ]
+[preload  storage="./data/fgimage/chara/11/izuha_egao.png"  ]
+[preload  storage="./data/fgimage/chara/11/izuha_yandere.png"  ]
+[preload  storage="./data/bgimage/black.jpg"  ]
+[return]

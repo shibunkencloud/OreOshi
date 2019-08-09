@@ -6,6 +6,8 @@
 
 *start
 
+[hidemenubutton]
+
 [tb_image_hide  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]

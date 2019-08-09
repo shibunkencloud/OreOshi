@@ -4,9 +4,11 @@
 新しいシナリオです[p]
 [_tb_end_text]
 
+*stat
+
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="car-interior1_(online-audio-converter.com).ogg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #鈴木
 「おい羽村、そろそろ着くぜ。」[p]
@@ -16,6 +18,15 @@
 
 俺、羽村桃也は今、友人の鈴木に半ば無理やり連れられる形で県立体育館へ向かうバスに揺られている。[p]
 鈴木曰く「全国大会の会場は毎年いくつかの県をローテーションしてて、今年はうちの県だから行きやすいんだよ。」、「うちの高校の女バスも出場してるから、まったく知らないやつの試合を見るわけじゃないしいいだろ。」だそうで、大して興味もないバスケを見に行くことになっちまった。[p]
+#鈴木
+なんだよテンション低いなぁ。いくら女子と接するのが苦手だからって、応援や観戦まで乗り気じゃないのかよ？[p]
+「試合見に来てくれてありがと～！」って喜ぶヤツがいるかもしれないぞ？[p]
+
+#桃也
+いや、まぁ、確かに女子と接点持ちたいけどさ、「試合見に来てくれてありがと～！」なんて、俺らに言う女子はいないだろ。[p]
+
+#
+悲しいがそりゃそうだな。だから非モテやってんだ。[p]
 
 [_tb_end_text]
 
@@ -40,6 +51,7 @@
 
 #鈴木
 「トイレは階段降りて左だぞ～。迷うなよ～。」[p]
+
 
 
 [_tb_end_text]
@@ -72,11 +84,59 @@
 「さっきの爆走ガールの落とし物か…？」[p]
 
 落とし主が分からないかと拾い上げて広げてみる。[p]
-ほのかに香った女子特有のいい匂いと、「ボールを追え！夢を追え！脚を止めれば勝利は遠のく！」という格言じみた一文に気を取られて気づくのに少し間があったが、よく見るとタオルの端に「天神ロトカ」と書いてある。[p]
+タオルを広げると、それと同時に女子特有のいい匂いもほんのりとひろがった。[p]
+どうする…じっくり嗅いでみるか？[p]
+
+
+
+
+[_tb_end_text]
+
+[glink  color="black"  storage="rotoka.ks"  size="20"  text="よし、嗅ごう！"  x="909"  y="339"  width=""  height=""  _clickable_img=""  target="*ro11"  ]
+[glink  color="black"  storage="rotoka.ks"  size="20"  text="いや、流石にやめよう。"  x="909"  y="383"  width=""  height=""  _clickable_img=""  target="*ro12"  ]
+[s  ]
+*ro11
+
+[tb_start_text mode=1 ]
+#桃也
+よし、嗅ごう！ｽｰﾊｰｽｰﾊｰ…。[p]
+あぁ～たまんねぇ～。[p]
+
+[_tb_end_text]
+
+[jump  storage="rotoka.ks"  target="*ro1f"  ]
+*ro12
+
+[tb_start_text mode=1 ]
+#桃也
+いやいやいや、流石にそれはまずいだろ。するわけねぇって。[p]
+
+#心の中の鈴木
+いいのか兄弟、こんなところで日和って？[p]
 
 #桃也
-「『天神ロトカ』……ってクラスメイトじゃねえか。確かにアイツなら誰かとぶつかるかもわからん場所を高速移動しててもおかしくないな。」[p]
+す、鈴木⁉[p]
 
+#心の中の鈴木
+行こうぜ？更なる高みへ。[p]
+
+#桃也
+あぁ、やってやるさ。いくぜっ！ｽｰﾊｰｽｰﾊｰ…。[p]
+
+[_tb_end_text]
+
+*ro1f
+
+[tb_start_text mode=1 ]
+#桃也
+いやぁ、すっかり堪能してしまったが…、どこかに持ち主の名前でも書いてないかな？[p]
+ん？これは……。[p]
+
+#
+「ボールを追え！夢を追え！脚を止めれば勝利は遠のく！」という格言じみた一文に気を取られて気づくのに少し間があったが、よく見るとタオルの端に「天神ロトカ」と書いてある。[p]
+#桃也
+「『天神ロトカ』……ってクラスメイトじゃねえか。確かにアイツなら誰かとぶつかるかもわからん場所を高速移動しててもおかしくないな。」[p]
+#
 クラスメイトの誼3割、女子の匂いを間近で堪能させてもらった礼7割、俺は天神にタオルを届けることにした。[p]
 
 [_tb_end_text]
@@ -103,7 +163,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/4.png"  width="380"  height="633"  left="441"  top="62"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/rotoka_uni_egao.png"  width="340"  height="544"  left="449"  top="65"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「えーと…確か、同じクラスの羽村じゃん！試合見に来てたのか！？…じゃなくて、なんでアタシのタオル持ってんだよー！」[p]
@@ -139,7 +199,7 @@
 #鈴木
 「おいおい羽村マジで迷ってたのかよ～、もう試合開始から2分過ぎてんぞ。」[p]
 
-#桃也
+#
 「タオル渡したときの天神の笑顔ちょっと可愛かったな」とか、「あいつタオル広げて『よしっ！』って言ってたけど、あのいかにもな格言で奮起する奴いるのか…。」とか、「そもそもなんで俺わざわざ天神に直接渡したんだ？あの下級生に渡せばよかっただろ！？なんか狙ってるみたいで不自然じゃん！」とか考えてたら迷って反対側の観客席に出てしまい、アリーナをぐるっと半周する羽目になっちまった…。[p]
 
 
@@ -156,7 +216,7 @@
 
 #桃也
 鈴木の言ってた通り試合はうちが圧倒する形で進んでいった。前半につけた点差をキープしながら消化試合気味に後半戦は終わった。[p]
-…と言うか、終わっていたらしい。どうやら俺はベンチに退がってからも天神から目が離せなかったようだ。[p]
+…と言うか終わっていた。どうやら俺はベンチに下がってからも天神から目が離せなかったらしい。[p]
 
 [_tb_end_text]
 
@@ -205,7 +265,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/3.png"  width="390"  height="650"  left="436"  top="52"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/rotoka_komarigao.png"  width="390"  height="607"  left="478"  top="32"  reflect="false"  ]
 [tb_start_text mode=1 ]
 
 #ロトカ
@@ -231,7 +291,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/2.png"  width="405"  height="675"  left="417"  top="56"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/rotoka_egao.png"  width="388"  height="603"  left="465"  top="47"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「なぁ羽村！明日って放課後暇か！？」[p]
@@ -242,7 +302,7 @@
 「ん？あぁ、暇だけど。」[p]
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_def.png"  ]
 [tb_start_text mode=1 ]
 
 #ロトカ
@@ -283,7 +343,7 @@
 「…っしゃあ、学校終わったぜ！天神のこと考えてたら秒で終わったな！」[p]
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/1.png"  width="487"  height="813"  left="431"  top="81"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/rotoka_def.png"  width="402"  height="626"  left="472"  top="18"  reflect="false"  ]
 [tb_start_text mode=1 ]
 
 
@@ -311,7 +371,7 @@
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="129759441592316220569_BG41b_1280.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Good_Morning_Sky_(フルバージョン)_(online-audio-converter.com).ogg"  ]
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/2.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「ついたぞ！」[p]
@@ -322,7 +382,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/3.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_komarigao.png"  ]
 [tb_start_text mode=1 ]
 
 #ロトカ
@@ -337,7 +397,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「ホントか！？だよなぁ、やっぱり家系ラーメンは男子高校生のソウルフードだもんな！」[p]
@@ -353,21 +413,18 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/2.png"  ]
 [tb_start_text mode=1 ]
 #桃也
 「へぇ、じゃあ、家系醤油ラーメンの全部乗せとライスにしようかな。」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
 [tb_start_text mode=1 ]
-
 #ロトカ
 「100円高くなるけど大盛りも頼めるぞ！」[p]
 
 #桃也
-「お、おぅ」[p]
+お、おぅ…。[p]
 
 [_tb_end_text]
 
@@ -390,13 +447,13 @@
 #ロトカ
 「おっ、おぉ、ありがとな羽村！」[p]
 
-
-[_tb_end_text]
-
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/2.png"  ]
-[tb_start_text mode=1 ]
 #桃也
 「なぁ、なんかソワソワしてないか？」[p]
+[_tb_end_text]
+
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_komarigao.png"  ]
+[tb_start_text mode=1 ]
+
 
 #ロトカ
 「その、そんなことないぞ！…あっ、いや、ソワソワしてる！ラーメンが楽しみでつい！」[p]
@@ -404,7 +461,6 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/3.png"  ]
 [tb_start_text mode=1 ]
 
 #桃也・ロトカ
@@ -423,7 +479,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_def.png"  ]
 [tb_start_text mode=1 ]
 
 
@@ -438,8 +494,6 @@
 「………。」ｼﾞｰ……[p]
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/2.png"  ]
-[chara_hide_all  time="1000"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
 
@@ -450,7 +504,6 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="129759443286316331748_BG41c_1280.jpg"  ]
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/2.png"  width="381"  height="635"  left="535"  top="76"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
 「いや～、この店めちゃくちゃ美味かったな！」[p]
@@ -472,7 +525,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「なぁおい羽村！」[p]
@@ -489,23 +542,29 @@
 #桃也
 「え？マジで？？」[p]
 
-#ロトカ
-「え？ダメなのか？？」[p]
 
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/3.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_komarigao.png"  ]
 [tb_start_text mode=1 ]
+
+#ロトカ
+「え？ダメなのか？？」[p]
+
 #桃也
 「いやいやいや、全っ然いい！ありがとう、俺もまた天神と飯行きたいよ！よっしゃあ、何が非モテ義兄弟の誓いじゃ！！」[p]
+[_tb_end_text]
+
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
+[tb_start_text mode=1 ]
+
 
 #ロトカ
 「ギキョーダイのなんちゃらってのはよくわかんないけど、大丈夫そうならよかった。じゃあな、また明日学校でな！」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="daytime_(online-audio-converter.com).ogg"  ]
@@ -554,13 +613,17 @@
 #桃也
 「あ、いたいた…って、おぉ！」[p]
 やっぱりバスケしてるときのロトカは凄いな。というかイイな。見てて飽きない、芸術的だ。[p]
+#
+…………[p]
+………[p]
+……[p]
+
 #桃也
 「お疲れロトカ。」[p]
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/5.png"  width="387"  height="645"  left="461"  top="37"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_egao.png"  width="5000"  height="8000"  left="461"  top="37"  reflect="false"  ]
 [tb_start_text mode=1 ]
-
 
 #ロトカ
 「なんだよ桃也、練習見てたのかよ。図書室で課題やって待っててもよかったんだぞ？」[p]
@@ -568,7 +631,7 @@
 「いいって、俺がバスケやってるロトカを見たかったんだから。で、今日はどこに行くんだ？」[p]
 
 #ロトカ
-「なんだよそんなにアタシの体操着姿が見たかったのか～、やらしいヤツだな～。…なんちゃって。今日はテレビの大食い番組でも紹介されたことがある中華料理屋だ！」[p]
+「なんだよそんなにアタシの練習着姿が見たかったのか～、やらしいヤツだな～。…なんちゃって。今日はテレビの大食い番組でも紹介されたことがある中華料理屋だ！」[p]
 
 #桃也
 「よっしゃ、じゃあ早速行くか！」[p]
@@ -586,11 +649,15 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="129759443286316331748_BG41c_1280.jpg"  ]
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/3.png"  width="365"  height="608"  left="423"  top="82"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
 
 「あぁ～、今日の店もすっげぇ美味かった。ありがとなロトカ！」[p]
+[_tb_end_text]
+
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/rotoka_komarigao.png"  width="381"  height="593"  left="473"  top="34"  reflect="false"  ]
+[tb_start_text mode=1 ]
+
 
 #ロトカ
 「ううん、こちらこそ。……あ、あのさ桃也。」[p]
@@ -637,7 +704,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/6.png"  width="376"  height="627"  left="437"  top="65"  reflect="false"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_komarigao.png"  width="424"  height="678"  left="439"  top="68"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「っし、………っ！」[p]
@@ -701,19 +768,16 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="school_gym_c.jpg"  ]
+[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/Rotoka_pra_komarigao.png"  width="415"  height="664"  left="444"  top="66"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
 「すんません先生、こいつ今日は体調悪いみたいなんで早退します！」[p]
 
 休憩中の女バスのなかに割って入り、勢いでロトカを連れ去っていく。[p]
 いきなりのことに「え？えっ？ちょっ、えぇ！？」とかなんとかひっくり返った声で疑問符を連打するロトカを問答無用で更衣室にぶち込む。[p]
-
-
-
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="school_dressing_room_a.jpg"  ]
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/6.png"  width="421"  height="702"  left="243"  top="106"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「ど、どうしたんだよ桃也？なんか怖いぞ…。それにアタシ別に体調なんて悪くないぞ！」[p]
@@ -723,16 +787,20 @@
 
 ドア越しにうろたえるロトカを一喝する。我ながら強引なことしたなという後ろめたい気も止まないが、生憎俺は非モテ義兄弟の片割れ、異性の繊細な扱い方なんて心得ちゃいないんでね。押し通させてもらう。[p]
 
+
+
+
+[_tb_end_text]
+
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_komarigao.png"  ]
+[tb_start_text mode=1 ]
 #ロトカ
 「まったく、行くって一体どｋ…」[p]
 
 #桃也
 「着替え終わったな、よしじゃあ行くぞ！」[p]
-
-
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/3.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「ちょ、ちょっと、腕ひっぱらないで！てかマジでどこ行くんだよ！？」[p]
@@ -744,7 +812,6 @@
 「はぁ！？！？」[p]
 [_tb_end_text]
 
-[chara_hide  name="rotoka"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #
 
@@ -790,7 +857,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「ホントか？ホントに恋人としてアタシに付き合わされてくれるんだな？アタシを受け止めてくれるんだな！？」[p]
@@ -801,7 +868,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/2.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_def.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「…アタシも桃也と恋人でいたい。」[p]
@@ -809,7 +876,6 @@
 「よし、じゃあ決まりだな！恋人として初めて一緒に食べる家系ラーメン、堪能しようぜ！」[p]
 [_tb_end_text]
 
-[chara_hide  name="rotoka"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #
 
@@ -822,7 +888,7 @@
 [stopbgm  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="129759443286316331748_BG41c_1280.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Spring_Riverside_2_(online-audio-converter.com).ogg"  ]
-[chara_show  name="rotoka"  time="1000"  wait="true"  storage="chara/8/2.png"  width="378"  height="630"  left="578"  top="62"  reflect="false"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
 [tb_start_text mode=1 ]
 #桃也・ロトカ
 「「ごちそうさまでした～。」」[p]
@@ -831,14 +897,24 @@
 「へい、またお待ちしてま～す！」[p]
 #桃也
 さて、店を出たら解散するのがいつもの流れなんだが、今日はちょっとやらなきゃいけないことがある。[p]
+それは……。[p]
 
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/3.png"  ]
+[glink  color="black"  storage="rotoka.ks"  size="20"  text="ロトカを更に問い詰めることだ！"  target="*rotoka1"  x="717"  y="274"  width="367"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="rotoka1.ks"  size="20"  text="ロトカに今後の予定を聞くことだ！"  x="716"  y="318"  width="352"  height="20"  _clickable_img=""  ]
+[s  ]
+*rotoka1
+
 [tb_start_text mode=1 ]
 #桃也
 「なぁロトカ、実はまだ悩み事があるんじゃないのか？」[p]
+[_tb_end_text]
+
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_komarigao.png"  ]
+[tb_start_text mode=1 ]
+
 
 #ロトカ
 「…っ！？」[p]
@@ -877,12 +953,12 @@
 #桃也
 「いいや、俺は引かないね！絶対に引かない！何回も言わせるなよ、俺はロトカを受け止める。ロトカに付き合う。確かに被食願望ってかなりマイナーだし、マジで噛みちぎったらそこが治るのに結構時間かかるだろうからそうそうできないだろうけど、噛みつくくらいだったらいくらでもやってやる！俺のロトカ愛をなめるなよ！」[p]
 
+#
 やっぱり今日はガラにもないことをやりすぎてる。こんなに怒鳴ったのいつぶりだ？でも、愛する人の為なら悪くないかもしれない。ロトカの目から流れる涙を見ていたら、そう思えてきた。[p]
 
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/2.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「グスッ…ヒック……桃也ぁ、ありがとう。」[p]
@@ -892,13 +968,16 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/1.png"  ]
+[chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_egao.png"  ]
 [tb_start_text mode=1 ]
 #ロトカ
 「じゃあ早速、首筋噛んで♪」[p]
 
 #桃也
 「そっちか～い！…ガブッ！！」[p]
+
+#
+あぁ、やっぱり彼女の性癖と家系ラーメンのスープは濃いめに限るなぁ。[p]
 
 [_tb_end_text]
 

@@ -2,6 +2,19 @@
 
 *til
 
+[tb_start_tyrano_code]
+[if exp=sf.game_clea==null]
+sf.game_clea=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.menu_flg==null]
+sf.menu_flg=0
+[endif]
+[_tb_end_tyrano_code]
+
+[jump  storage="unlimited_title_screen.ks"  target="*un-til"  cond="sf.menu_flg==1"  ]
 [hidemenubutton]
 
 [tb_clear_images]
@@ -17,12 +30,13 @@
 [s  ]
 *start
 
+[tb_eval  exp="sf.game_clea+=1"  name="game_clea"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [showmenubutton]
 
 [cm  ]
 [tb_keyconfig  flag="1"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[jump  storage="cha_sel.ks"  target=""  ]
+[jump  storage="cha_sel.ks"  target="*stat"  ]
 [s  ]
 *load
 

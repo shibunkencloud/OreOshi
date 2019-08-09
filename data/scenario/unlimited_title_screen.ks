@@ -2,6 +2,23 @@
 
 *un-til
 
+[iscript]
+localStorage.clear();
+[endscript]
+
+[tb_start_tyrano_code]
+[if exp=sf.game_clea==null]
+sf.game_clea=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.menu_flg==null]
+sf.menu_flg=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_eval  exp="sf.menu_flg=1"  name="menu_flg"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [hidemenubutton]
 
 [tb_clear_images]

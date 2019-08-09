@@ -73,9 +73,11 @@
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [iscript]
 localStorage.clear();
 [endscript]
 
 [wait  time="5000"  ]
+[tb_eval  exp="sf.menu_flg=0"  name="menu_flg"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

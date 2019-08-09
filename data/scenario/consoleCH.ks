@@ -71,7 +71,8 @@
 [jump  storage="consoleCH.ks"  target="*console"  ]
 *rmau
 
-[tb_ptext_show  x="445"  y="350"  size="50"  color="0x000000"  time="1"  text="Authority&nbsp;removed"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="50"  y="155"  size="30"  color="0x000000"  time="1"  text="Authority&nbsp;removed:Namiko"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_eval  exp="sf.ad_flg=1"  name="ad_flg"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [l  ]
 [tb_ptext_hide  time="1"  ]
 [jump  storage="consoleCHAU.ks"  target="*console"  ]
