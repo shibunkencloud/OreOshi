@@ -179,7 +179,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 「え？」じゃないわよ。だっておにーさん、あたしと一緒に文化祭を回ってくれるんでしょ？[p]
@@ -224,7 +224,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 おにーさん、こっちこっちー！バスケ部の大盛り焼きそば屋だって！[p]
@@ -269,7 +269,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 お仕事？一体どんなお仕事してるの？[p]
@@ -287,7 +287,7 @@
 あ、あ～ん。…もぐもぐ。[p]
 
 #
-以外だな…。まさか俺に食べさせてくれるなんて。[p]
+意外だな…。まさか俺に食べさせてくれるなんて。[p]
 そして何より、小学生に食べさせてもらうのは背徳感が…。[p]
 
 #梨花
@@ -317,7 +317,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 でもそうね、おにーさん、次行くわよ！[p]
 
@@ -337,12 +337,11 @@
 [tb_start_text mode=1 ]
 よし、ここに決めたわ[p]
 #桃也
-えっ、どうかしたの梨花ちゃん？[p]
+えっ、どうかしたの梨花ちゃん！?[p]
 
-！[p]
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 「どうかしたの？」じゃないわよ。1年D組のクイズ大会に行くわよ！[p]
@@ -404,7 +403,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 別にルール違反はしてないし～。[p]
@@ -517,7 +516,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 落ち着いた？ってそもそも取り乱してすらいないわよ！[p]
@@ -566,5 +565,6 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="rinka.ks"  size="20"  text="いや、なんでもないよ。"  x="806"  y="357"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="rinka.ks"  size="20"  text="俺、行かなきゃいけない場所があるんだ。"  x="806"  y="406"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="rinka2.ks"  size="20"  text="いや、なんでもないよ。"  x="806"  y="357"  width=""  height=""  _clickable_img=""  target="*stat"  ]
+[glink  color="black"  storage="rinka1.ks"  size="20"  text="俺、行かなきゃいけない場所があるんだ。"  x="806"  y="406"  width=""  height=""  _clickable_img=""  target="*stat"  ]
+[s  ]

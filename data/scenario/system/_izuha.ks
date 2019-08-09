@@ -1,0 +1,7 @@
+[preload  storage="./data/bgimage/room.jpg"  ]
+[preload  storage="./data/bgimage/rouka.jpg"  ]
+[preload  storage="./data/bgimage/138927331449169869226_BG31b_1280.jpg"  ]
+[preload  storage="./data/fgimage/chara/11/izuha_egao.png"  ]
+[preload  storage="./data/bgimage/131877132195213214734_BG03a_80.jpg"  ]
+[preload  storage="./data/fgimage/chara/11/izuha_tatie.png"  ]
+[return]

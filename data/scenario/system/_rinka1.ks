@@ -1,0 +1,5 @@
+[preload  storage="./data/fgimage/chara/10/Rinka_nakigao.png"  ]
+[preload  storage="./data/bgimage/rouka.jpg"  ]
+[preload  storage="./data/bgimage/school.jpg"  ]
+[preload  storage="./data/bgimage/139304179804528354228_bg441a_1280.jpg"  ]
+[return]
