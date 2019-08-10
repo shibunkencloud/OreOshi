@@ -13,13 +13,13 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="500"  storage="default/0.png"  width="520"  height="695"  x="930"  y="40"  name="img_7"  _clickable_img=""  ]
-[tb_image_show  time="500"  storage="default/Rinka_def.png"  width="375"  height="657"  x="804"  y="71"  _clickable_img=""  name="img_8"  ]
-[tb_image_show  time="500"  storage="default/wakana_default.png"  width="487"  height="650"  x="581"  y="109"  _clickable_img=""  name="img_9"  ]
-[tb_image_show  time="500"  storage="default/suzune.png"  width="344"  height="619"  x="463"  y="84"  name="img_10"  _clickable_img=""  ]
-[tb_image_show  time="500"  storage="default/izuha_tatie.png"  width="447"  height="632"  x="202"  y="75"  name="img_11"  _clickable_img=""  ]
-[tb_image_show  time="500"  storage="default/Rotoka_pra_egao_(1).png"  width="409"  height="655"  x="54"  y="88"  _clickable_img=""  name="img_12"  ]
-[tb_image_show  time="500"  storage="default/namiko1_normal.png"  width="260"  height="585"  x="-25"  y="134"  _clickable_img=""  name="img_13"  ]
+[tb_image_show  time="500"  storage="default/0.png"  width="520"  height="695"  x="930"  y="40"  name="img_8"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/Rinka_def.png"  width="375"  height="657"  x="804"  y="71"  _clickable_img=""  name="img_9"  ]
+[tb_image_show  time="500"  storage="default/wakana_default.png"  width="487"  height="650"  x="581"  y="109"  _clickable_img=""  name="img_10"  ]
+[tb_image_show  time="500"  storage="default/suzune.png"  width="344"  height="619"  x="463"  y="84"  name="img_11"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/izuha_tatie.png"  width="447"  height="632"  x="202"  y="75"  name="img_12"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/Rotoka_pra_egao_(1).png"  width="409"  height="655"  x="54"  y="88"  _clickable_img=""  name="img_13"  ]
+[tb_image_show  time="500"  storage="default/namiko1_normal.png"  width="260"  height="585"  x="-25"  y="134"  _clickable_img=""  name="img_14"  ]
 [clickable  storage="cha_sel.ks"  x="552"  y="-35"  width="195"  height="793"  target="*suzune"  _clickable_img=""  ]
 [clickable  storage="cha_sel.ks"  x="1110"  y="-29"  width="173"  height="776"  target="*sorane"  _clickable_img=""  ]
 [clickable  storage="cha_sel.ks"  x="170"  y="-39"  width="179"  height="810"  target="*rotoka"  _clickable_img=""  ]
@@ -31,14 +31,26 @@
 *sorane
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/0.png"  width="529"  height="705"  name="img_21"  x="379"  y="43"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/0.png"  width="529"  height="705"  name="img_25"  x="379"  y="43"  _clickable_img=""  ]
 [tb_show_message_window  ]
+[jump  storage="cha_sel.ks"  target="*sorane_ss"  cond="sf.tsorane==1"  ]
 [tb_start_text mode=4 ]
 田鹿 空音でよろしいですね？
 [_tb_end_text]
 
 [glink  color="black"  storage="cha_sel.ks"  size="20"  target="*sel"  text="いいえ"  x="865"  y="358"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="sorane.ks"  size="20"  x="874"  y="299"  width=""  height=""  _clickable_img=""  text="はい"  target="*start"  ]
+[s  ]
+*sorane_ss
+
+[tb_start_text mode=3 ]
+田鹿 空音でよろしいですね？[r]
+クリア後特典、後日編が解放されています。[r]
+[_tb_end_text]
+
+[glink  color="black"  storage="cha_sel.ks"  size="20"  target="*sel"  text="いいえ"  x="874"  y="358"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="sorane.ks"  size="20"  x="874"  y="299"  width=""  height=""  _clickable_img=""  text="本編を見る"  target="*start"  ]
+[glink  color="black"  storage="sorane2.ks"  size="20"  x="872"  y="245"  width=""  height=""  _clickable_img=""  text="後日編を見る"  target="*stat"  ]
 [s  ]
 *suzune
 

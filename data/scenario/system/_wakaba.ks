@@ -1,3 +1,4 @@
+[preload  storage="./data/bgimage/black.jpg"  ]
 [preload  storage="./data/bgimage/rouka.jpg"  ]
 [preload  storage="./data/bgimage/room.jpg"  ]
 [preload  storage="./data/fgimage/chara/13/wakana_default.png"  ]

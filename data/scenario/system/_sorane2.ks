@@ -1,3 +1,4 @@
+[preload  storage="./data/bgimage/black.jpg"  ]
 [preload  storage="./data/bgimage/138927331449169869226_BG31b_1280.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/egao.png"  ]
 [preload  storage="./data/fgimage/chara/1/tere.png"  ]

@@ -55,7 +55,8 @@
 [chara_hide_all  time="500"  wait="false"  ]
 [bg  time="500"  method="crossfade"  storage="black.jpg"  ]
 [tb_start_text mode=1 ]
-FIN[p]
+END[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

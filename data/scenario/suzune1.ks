@@ -85,4 +85,5 @@ END[p]
 
 [_tb_end_text]
 
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [jump  storage="suzune.ks"  target="*fin"  ]

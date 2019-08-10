@@ -16,6 +16,5 @@
 [preload  storage="./data/bgimage/5919320.jpg"  ]
 [preload  storage="./data/fgimage/chara/1/(v-v).png"  ]
 [preload  storage="./data/bgimage/BG00b1_80.jpg"  ]
-[preload  storage="./data/fgimage/chara/1/(.▽.).png"  ]
 [preload  storage="./data/fgimage/chara/1/egao.png"  ]
 [return]

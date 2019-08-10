@@ -6,6 +6,7 @@
 
 *stat
 
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #桃也
@@ -589,4 +590,10 @@
 
 [tb_hide_message_window  ]
 [chara_hide  name="wakana"  time="1000"  wait="true"  pos_mode="true"  ]
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
+[movie  volume="100"  storage="roll2019.ogv"  ]
+[stopbgm  time="1000"  ]
+[tb_eval  exp="sf.twakana=1"  name="twakana"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

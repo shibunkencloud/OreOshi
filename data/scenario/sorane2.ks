@@ -4,6 +4,11 @@
 新しいシナリオです[p]
 [_tb_end_text]
 
+*stat
+
+[tb_image_hide  time="1000"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [bg  time="1000"  method="crossfade"  storage="138927331449169869226_BG31b_1280.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]

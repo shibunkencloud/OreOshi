@@ -800,12 +800,6 @@
 #涼音
 「こちらこそよろしくお願いします」[p]
 
-涼音はそう言ってはにかむような笑顔を見せた。[p]
-……反則だろ。[p]
-涼音の笑顔を見るのは初めてではないが、普段滅多に笑わないやつの笑顔ってのは本当に破壊力やっばいな。[p]
-これがギャップ萌えってやつか。[p]
-
-
 #桃也
 「あれ、てか、後輩はどうすんだ！？」[p]
 
@@ -909,4 +903,6 @@ FIN[p]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
 [movie  volume="100"  storage="roll_1.ogv"  skip="false"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[tb_eval  exp="sf.tsuzune=1"  name="tsuzune"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

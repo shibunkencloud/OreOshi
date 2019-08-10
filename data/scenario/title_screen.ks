@@ -14,6 +14,48 @@ sf.menu_flg=0
 [endif]
 [_tb_end_tyrano_code]
 
+[tb_start_tyrano_code]
+[if exp=sf.tizuha==null]
+sf.tizuha=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.trinka==null]
+sf.trinka=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.trotoka==null]
+sf.trotoka=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.tsorane==null]
+sf.tsorane=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.tsuzune==null]
+sf.tsuzune=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.twakaba==null]
+sf.twakaba=0
+[endif]
+[_tb_end_tyrano_code]
+
+[tb_start_tyrano_code]
+[if exp=sf.clea_kaisu==null]
+sf.clea_kaisu=0
+[endif]
+[_tb_end_tyrano_code]
+
 [jump  storage="unlimited_title_screen.ks"  target="*un-til"  cond="sf.menu_flg==1"  ]
 [hidemenubutton]
 

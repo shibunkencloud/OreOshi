@@ -361,7 +361,7 @@
 [_tb_end_text]
 
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Good_Morning_Sky_(フルバージョン)_(online-audio-converter.com).ogg"  ]
-[chara_show  name="sorane"  time="1000"  wait="true"  storage="chara/1/(.▽.).png"  width="579"  height="772"  left="359"  top="56"  reflect="false"  ]
+[chara_show  name="sorane"  time="1000"  wait="true"  storage="chara/1/0.png"  width="612"  height="816"  left="356"  top="-4"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #空音
 「――よし、遊園地に行くぞ羽村くん。」[p]
@@ -446,7 +446,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="アートボード_1.png"  ]
-[chara_show  name="sorane"  time="1000"  wait="true"  storage="chara/1/0.png"  width="1200"  height="1601"  left="359"  top="56"  reflect="false"  ]
+[chara_show  name="sorane"  time="1000"  wait="true"  storage="chara/1/0.png"  width="586"  height="782"  left="364"  top="-35"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #空音
 「やあ羽村くん、おはよう！」[p]
@@ -673,7 +673,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(.▽.).png"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/0.png"  ]
 [tb_start_text mode=1 ]
 「結構遠くの山まで見えるものだな、それだけ高度が高いのか。下から見上げたときはイメージできなかったが、肉眼で見ると少し恐怖すら覚えそうだ。」[p]
 [_tb_end_text]
@@ -811,7 +811,18 @@ FIN[p]
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
-[movie  volume="100"  storage="roll_1.ogv"  ]
+[movie  volume="100"  storage="roll2019.ogv"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=3 ]
+☆空音クリア後特典、後日編が解放されました！[r]
+キャラクターセレクト画面から遊ぶことができます。[r]
+[_tb_end_text]
+
+[l  ]
+[tb_hide_message_window  ]
+[tb_eval  exp="sf.tsorane=1"  name="tsorane"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
+[tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

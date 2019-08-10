@@ -90,6 +90,7 @@
 
 [chara_mod  name="rotoka"  time="600"  cross="true"  storage="chara/8/rotoka_def.png"  ]
 [tb_start_text mode=1 ]
+#ロトカ
 いや、今日はもう帰るよ。[p]
 ありがとな、楽しかったよ。[p]
 
@@ -115,4 +116,5 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

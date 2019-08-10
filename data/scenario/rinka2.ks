@@ -142,4 +142,5 @@ FIN[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

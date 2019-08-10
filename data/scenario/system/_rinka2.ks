@@ -5,4 +5,5 @@
 [preload  storage="./data/bgimage/room.jpg"  ]
 [preload  storage="./data/fgimage/chara/10/Rinka_nakigao.png"  ]
 [preload  storage="./data/bgimage/127012884266216319447_BG382a.jpg"  ]
+[preload  storage="./data/bgimage/black.jpg"  ]
 [return]
