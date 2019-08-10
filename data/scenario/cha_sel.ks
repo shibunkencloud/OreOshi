@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_cha_sel.ks]
 
+*stat
+
 [cm  ]
 [bg  time="1000"  method="crossfade"  storage="white.jpg"  ]
 [tb_show_message_window  ]
