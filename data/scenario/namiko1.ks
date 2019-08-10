@@ -5,6 +5,8 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="musicroom.jpg"  ]
+[tb_eval  exp="f.nmkflg=0"  name="nmkflg"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="f.nmkloop=0"  name="nmkloop"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [hidemessage  ]
 [chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="269"  height="607"  left="526"  top="155"  reflect="false"  ]
 [tb_show_message_window  ]
@@ -478,10 +480,26 @@
 [tb_eval  exp="f.nmkloop+=1"  name="nmkloop"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="namiko1.ks"  target="*nmkunlm"  cond="f.nmkloop==15"  ]
 [glink  color="white"  storage="namiko1.ks"  size="20"  text="結婚しよう"  x="543"  y="195"  width=""  height=""  _clickable_img=""  target="*nmkfin"  ]
-[glink  color="black"  storage="namiko1.ks"  size="20"  text="なみ子、お前って……"  target="*loop"  x="1002"  y="671"  width="293"  height="20"  _clickable_img=""  ]
+[glink  color="black"  storage="namiko1.ks"  size="20"  text="なみ子、お前って……"  target="*loop"  x="1002"  y="671"  width="349"  height="20"  _clickable_img=""  ]
 [s  ]
 [s  ]
 *nmkfin
+
+[jump  storage="namiko1.ks"  target="*fin2"  ]
+*fin3
+
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[tb_start_text mode=1 ]
+#なみ子
+危ない……何とか修正できた.[p]
+#桃也
+？なみ子、なんか言ったか？[p]
+#なみ子
+いえ,なんでもないですよ.[p]
+[_tb_end_text]
+
+*fin2
 
 [tb_start_text mode=1 ]
 #桃也
@@ -534,9 +552,10 @@
 
 [_tb_end_text]
 
+[tb_hide_message_window  ]
+[jump  storage="title_screen.ks"  target="*til"  ]
 *nmkunlm
 
-[jump  storage="namiko1.ks"  target="*nmkfin"  cond="f.nmkflg!=2"  ]
 [tb_start_text mode=1 ]
 #桃也
 「お前って…本当に……」[p]
@@ -545,6 +564,8 @@
 「!?」[p]
 [_tb_end_text]
 
+[jump  storage="namiko1.ks"  target="*fin3"  cond="f.nmkflg!=2"  ]
+[jump  storage="namiko1.ks"  target="*fin3"  cond="sf.clea_kaisu<3"  ]
 [chara_hide  name="namiko"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 

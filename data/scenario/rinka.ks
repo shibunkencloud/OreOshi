@@ -94,9 +94,9 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらりか)って書いてあるよ。"  x="777"  y="295"  width=""  height=""  _clickable_img=""  target="*rinka11"  ]
-[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらりんか)って書いてあるよ。"  x="777"  y="341"  width=""  height=""  _clickable_img=""  target="*rinka12"  ]
-[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらなしか)…？って書いてあるよ。"  x="777"  y="388"  width=""  height=""  _clickable_img=""  target="*rinka13"  ]
+[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらりか)って書いてあるよ。"  x="779"  y="263"  width=""  height=""  _clickable_img=""  target="*rinka11"  ]
+[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらりんか)って書いてあるよ。"  x="778"  y="312"  width=""  height=""  _clickable_img=""  target="*rinka12"  ]
+[glink  color="black"  storage="rinka.ks"  size="20"  text="佐倉梨花(さくらなしか)…？って書いてあるよ。"  x="777"  y="358"  width="410"  height="20"  _clickable_img=""  target="*rinka13"  ]
 [s  ]
 *rinka11
 
@@ -565,6 +565,6 @@
 
 [_tb_end_text]
 
-[glink  color="black"  storage="rinka2.ks"  size="20"  text="いや、なんでもないよ。"  x="806"  y="357"  width=""  height=""  _clickable_img=""  target="*stat"  ]
-[glink  color="black"  storage="rinka1.ks"  size="20"  text="俺、行かなきゃいけない場所があるんだ。"  x="806"  y="406"  width=""  height=""  _clickable_img=""  target="*stat"  ]
+[glink  color="black"  storage="rinka2.ks"  size="20"  text="いや、なんでもないよ。"  x="802"  y="312"  width=""  height=""  _clickable_img=""  target="*stat"  ]
+[glink  color="black"  storage="rinka1.ks"  size="20"  text="俺、行かなきゃいけない場所があるんだ。"  x="799"  y="358"  width=""  height=""  _clickable_img=""  target="*stat"  ]
 [s  ]

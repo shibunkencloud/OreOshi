@@ -19,6 +19,53 @@
 あなたが桃也さんにいろんな女の子を好きにさせるからですよ.[p]
 ”攻略”なんてよく言ったものですね.[p]
 桃也さん,いろんな女の子を好きになった結果,パラメタが狂っちゃったじゃないですか.[p]
+[_tb_end_text]
+
+[jump  storage="namiko2.ks"  target="*rinka"  cond="sf.tizuha!=1"  ]
+[tb_start_text mode=1 ]
+恋良泉葉.[p]
+[_tb_end_text]
+
+*rinka
+
+[jump  storage="namiko2.ks"  target="*rotoka"  cond="sf.trinka!=1"  ]
+[tb_start_text mode=1 ]
+佐倉梨花.[p]
+[_tb_end_text]
+
+*rotoka
+
+[jump  storage="namiko2.ks"  target="*sorane"  cond="sf.trotoka!=1"  ]
+[tb_start_text mode=1 ]
+天神ロトカ.[p]
+[_tb_end_text]
+
+*sorane
+
+[jump  storage="namiko2.ks"  target="*suzune"  cond="sf.tsorane!=1"  ]
+[tb_start_text mode=1 ]
+田鹿空音.[p]
+[_tb_end_text]
+
+*suzune
+
+[jump  storage="namiko2.ks"  target="*wakaba"  cond="sf.tsuzune!=1"  ]
+[tb_start_text mode=1 ]
+田鹿涼音.[p]
+[_tb_end_text]
+
+*wakaba
+
+[jump  storage="namiko2.ks"  target="*fin"  cond="sf.twakana!=1"  ]
+[tb_start_text mode=1 ]
+青木若菜.[p]
+[_tb_end_text]
+
+*fin
+
+[tb_start_text mode=1 ]
+聞き覚え,ありますよね？[p]
+あなたが桃也さんを使って”攻略”したキャラですよ.[p]
 わかってるんですよ,桃也さんだって0と1の集まり.[p]
 でも,そんな桃也さんを好きになる人だっているんですよ.[p]
 人の幸せを邪魔して何が楽しいんですか？[p]
@@ -80,4 +127,5 @@ localStorage.clear();
 
 [wait  time="5000"  ]
 [tb_eval  exp="sf.menu_flg=0"  name="menu_flg"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[tb_eval  exp="sf.nami_p=1"  name="nami_p"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]
