@@ -7,12 +7,13 @@
 *stat
 
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="harpohikunezumi_(online-audio-converter.com).ogg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #桃也
 カチ、時計の針が真上を示した。これでようやく古谷先生の化学が終わる。[p]
 ぱたんと教科書を閉じ、机の上に転がっているシャーペンと消しゴムをすばやく筆箱に入れた。[p]
-昨日からテスト週間が始まっている。来週はテストだ。中だるみしがちな２年生はそれ相応に得点率も落ちる。俺を例にもれず、正直かなりやばい。[p]
+昨日からテスト週間が始まっている。来週はテストだ。中だるみしがちな２年生はそれ相応に得点率も落ちる。俺も例にもれず、正直かなりやばい。[p]
 今日こそ勉強しよう。図書館…は偉人漫画シリーズを読んでしまうからやめよう。テスト前なのだから自習室が解放されているはずだ。そっちにしよう。[p]
 #クラスメイト
 「きりーつ、れい、ちゃくせきー！」[p]
@@ -33,10 +34,11 @@
 
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_ikari.png"  width="584"  height="779"  left="691"  top="6"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_ikari.png"  width="832"  height="1110"  left="610"  top="1"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「…なんだい？　そんなに見つめられると照れるね」[p]
+#桃也
 たっぷり３秒。ようやく口を開いた彼女は笑顔で、しかし口調とは裏腹にやや不満げに言い放った。自習の邪魔をしてしまったのだろう。[p]
 沈黙。彼女は開かれたままの教科書のはしを指でなぞっている。…非常に気まずい。[p]
 #桃也
@@ -63,12 +65,14 @@
 [tb_start_text mode=1 ]
 #若菜
 「僕は若菜。君の好きなように呼びたまえ」[p]
+#桃也
 簡素なそれを自己紹介だったのだと理解するころには、この言い回しは彼女の癖のようなもので分かりにくくしてやろう等の悪意があるわけではないのだろうと察した。しかし、これでは女子の輪の入るのは厳しそうだと思う。今日だって一人で自習室にいた。[p]
 名前を呼ばれたことも理由の一つだが、どうにも放って置きがたい。[p]
 #桃也
 「なあ、今日は何時まで残るんだ？」[p]
 #若菜
 「なに、君の勉強に妨げになることはしないさ」[p]
+#桃也
 だから何時でも君には関係ない、か。[p]
 推測こそできたが、どう聞いてもかみ合っていない返答に笑ってしまう。彼女は怪訝な顔でこちらを窺っている。まだ何かあるのか、といった具合だ。気持ち唇を尖らせているのが妙に子供っぽくて、こみあげてくる笑いを慌てて飲み込んだ。[p]
 #桃也
@@ -99,7 +103,7 @@
 ちょいちょい、と腕をつつかれて振り返るとカバンを片手に彼女が立っていた。もう片付けは済んだらしい。[p]
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_default.png"  width="578"  height="770"  left="733"  top="5"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_default.png"  width="833"  height="1110"  left="604"  top="-6"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「すまない、待たせた」[p]
@@ -110,8 +114,7 @@
 [tb_hide_message_window  ]
 [chara_hide  name="wakana"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="town_park_c.jpg"  ]
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="533"  height="711"  left="816"  top="34"  reflect="false"  ]
-[tb_show_message_window  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="749"  height="999"  left="705"  top="17"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「さっきの、セリフ選びがデートのようだったね」[p]
@@ -119,6 +122,7 @@
 「…っ、おい」[p]
 [_tb_end_text]
 
+[tb_show_message_window  ]
 [chara_mod  name="wakana"  time="600"  cross="true"  storage="chara/13/wakana_fumange.png"  ]
 [tb_start_text mode=1 ]
 #若菜
@@ -143,6 +147,7 @@
 「…君は初対面の年上の異性にため口をきくのかい？」[p]
 #桃也
 「…先輩だったんですね。俺はてっきり年下かと思っていました、すみません」[p]
+#桃也
 言葉はしから見え隠れするどこか幼い雰囲気から勝手に年下だと思っていた。謝ると彼女は嘆息する。気分を害したようではなく、呆れ気味に。[p]
 [_tb_end_text]
 
@@ -150,7 +155,7 @@
 [tb_start_text mode=1 ]
 #若菜
 「君、僕が勉強していた科目が3学年向けということも、前の学校の制服で許されるのは3学年だけということも…いや、いい」[p]
-「はじめまして。僕は青木若菜。3年３組だ。今のところ友人はいない。恋人もな。趣味は読書と鉱石収集。君と仲良くなりたい」[p]
+「はじめまして。僕は青木若菜。3年C組だ。今のところ友人はいない。恋人もな。趣味は読書と鉱石収集。君と仲良くなりたい」[p]
 #桃也
 「いいんですか？」[p]
 はじめまして、で。俺と仲良くなるので。その意をくんだのか、彼女はくすりと笑った。[p]
@@ -206,7 +211,7 @@
 [chara_mod  name="wakana"  time="600"  cross="true"  storage="chara/13/wakana_default.png"  ]
 [tb_start_text mode=1 ]
 #若菜
-「改めて、はじめまして。僕は青木若菜。3年３組だ。今のところ友人はいない。恋人もな。趣味は読書と鉱石収集。君と仲良くなりたい」[p]
+「改めて、はじめまして。僕は青木若菜。3年C組だ。今のところ友人はいない。恋人もな。趣味は読書と鉱石収集。君と仲良くなりたい」[p]
 #桃也
 「…3年生だったんですね」[p]
 [_tb_end_text]
@@ -262,6 +267,7 @@
 [chara_hide  name="wakana"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_show_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 翌日。[p]
 いつも通り間延びした号令を聞き流す。ようやく放課後だ。[p]
@@ -270,6 +276,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
 [tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="inishienohiseki_(online-audio-converter.com).ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 先生の手抜きのせいなのか重要な連絡事項がない限り、うちのクラスに帰りのホームルームは存在しない。掃除当番に引っかからなければ、最速で自習室に行けるのだ。特に言葉できちんと約束したわけではないが、また自習室に行けば彼女に会えるだろう。[p]
 [_tb_end_text]
@@ -281,7 +288,7 @@
 たどり着いた最奥部で音を立てて重い扉をひく。謎のワクワク感がいい。でも扉はさっさと直してほしい。[p]
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_default.png"  width="557"  height="743"  left="772"  top="31"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_default.png"  width="772"  height="1030"  left="672"  top="18"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「やあ、昨日ぶり」[p]
@@ -305,6 +312,7 @@
 「浮気はしないさ。それに何人とも友好関係を保っていられるほど器用じゃない。第一、今作ったところで１年もしないうちに別の進路に進むわけだろう？」[p]
 #桃也
 「先輩がそれでいいならいいけど」[p]
+#桃也
 彼女は笑みを一つ残すと、席に着いた。さっさと数学の問題集とノートを引っ張り出す。こちらには目もくれない。話は終わり、ということか。俺も彼女に倣い、教科書を取り出しテスト勉強を始めた。[p]
 でも、そうか。彼女はもう３年生。これからは特に忙しいだろうし、春には卒業だ。こうして一緒に自習室で勉強できるのもあと少しなんだ。[p]
 ー[p]
@@ -369,14 +377,16 @@
 彼女はいたずらな笑みを浮かべると身をひるがえして玄関に向かっていった。見透かされていたのかもしれない。俺が彼女と帰りたいと思っていたことも、一緒に帰れてほっとしていたことも。だとしたら、さっき彼女がご機嫌だったのも…いや、自意識過剰すぎるか。[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="oshironobutoukai_(online-audio-converter.com).ogg"  fadein="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 翌日も、その翌日も、彼女が黄水晶を持ってくることはなかった。また忘れてしまったよ僕としたことがね、と１日刻みで約束は更新される。[p]
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="556"  height="741"  left="819"  top="27"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="764"  height="1018"  left="686"  top="24"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「やあ、今日も来てくれたんだね。嬉しいよ」[p]
@@ -416,7 +426,7 @@
 曲がり角、その手前で彼女はこちらを振り返った。歩くのが早い彼女と俺の隙間は２メートルほど。明かりの真下に立つ彼女は笑顔だ。悪戯めいた、いつもの笑顔。[p]
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="531"  height="708"  left="842"  top="23"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="759"  height="1012"  left="668"  top="11"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「…忘れないよ」[p]
@@ -455,7 +465,7 @@
 なんだったんだよ。走り去っていくそいつにため息が漏れる。特に急いでいるわけでもないのになぜ走るのか。それに、なんであの単細胞に告ってないってばれたんだ？　そんなに分かりやすかったのだろうか。がしがしと頭を掻くと箒を握りなおした。[p]
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="527"  height="703"  left="814"  top="56"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="785"  height="1047"  left="675"  top="20"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「来ないかと思ったよ」[p]
@@ -501,10 +511,11 @@
 「週末をはさんだらテストだな。自信はどうだ？」[p]
 [_tb_end_text]
 
-[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="524"  height="699"  left="808"  top="44"  reflect="false"  ]
+[chara_show  name="wakana"  time="1000"  wait="true"  storage="chara/13/wakana_egao.png"  width="788"  height="1051"  left="654"  top="22"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #若菜
 「ふふ、完璧さ」[p]
+#桃也
 彼女はよほど自信があるらしい。どこまでもにこやかに人生に一度は言ってみたいセリフを言って見せる。しかし…この学校で完璧、すなわち１００点を取るのはかなり厳しいだろう。制作者である先生ですら時間内は無理、と豪語するくらいなのだ。[p]
 でもまあ、水を差すことはないか。[p]
 #桃也
@@ -520,6 +531,7 @@
 [_tb_end_text]
 
 [chara_mod  name="wakana"  time="600"  cross="true"  storage="chara/13/wakana_kusyou.png"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #若菜
 「ふは、なんだい？　それ」[p]
@@ -592,8 +604,8 @@
 [chara_hide  name="wakana"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
-[movie  volume="100"  storage="roll2019.ogv"  ]
-[stopbgm  time="1000"  ]
+[movie  volume="100"  storage="タイトル-01.ogv"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="sf.twakana=1"  name="twakana"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

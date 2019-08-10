@@ -87,7 +87,7 @@
 #
 「「「さようならー」」」[p]
 #クラスメート
-「っかー！なぁんで休み明けすぐにテストがあるんだよーっ！春休みなんか遊んでたに決まってんだろーが！」[p]
+「っかー！　なぁんで休み明けすぐにテストがあるんだよーっ！　春休みなんか遊んでたに決まってんだろーが！」[p]
 #桃也
 「普通に授業始まるしな……まあ頑張ろうぜ、そして散ろう」[p]
 #クラスメート
@@ -343,7 +343,7 @@
 
 [stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
+[bg  time="5000"  method="crossfade"  storage="black.jpg"  ]
 [tb_hide_message_window  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="138927331449169869226_BG31b_1280.jpg"  ]
@@ -362,6 +362,7 @@
 
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Good_Morning_Sky_(フルバージョン)_(online-audio-converter.com).ogg"  ]
 [chara_show  name="sorane"  time="1000"  wait="true"  storage="chara/1/0.png"  width="612"  height="816"  left="356"  top="-4"  reflect="false"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 #空音
 「――よし、遊園地に行くぞ羽村くん。」[p]
@@ -377,13 +378,13 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/def.png"  ]
 [tb_start_text mode=1 ]
 「あんなことやこんなことやそんなことが、なんやかんやありつつどうにかなったのが、つい昨日のことのようだよ。」[p]
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/def.png"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 #桃也
 「その言い方じゃ何も分かりませんが……それで？」[p]
@@ -392,7 +393,6 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 「ええとそれで、なんだっけ、ああそうだ。つまるところ君はこの夏休みを境に任期を終えるわけだ。だから慰労と任期終了のお祝いも兼ねて遊園地にでも赴いてみないかと、こうしてお誘いをしているんだよ。俗っぽく言うならデート及びランデ・ヴーをしましょうと、そう言っているんだよ、この私が。分かったかい？」[p]
 [_tb_end_text]
@@ -447,12 +447,12 @@
 
 [bg  time="1000"  method="crossfade"  storage="アートボード_1.png"  ]
 [chara_show  name="sorane"  time="1000"  wait="true"  storage="chara/1/0.png"  width="586"  height="782"  left="364"  top="-35"  reflect="false"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 #空音
 「やあ羽村くん、おはよう！」[p]
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 #桃也
 「……おはよう、ございます……。」[p]
@@ -505,6 +505,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/def.png"  ]
 [tb_start_text mode=1 ]
 そして開園。ゲートをくぐった瞬間から俺たちは戦士の顔つきになった。目指す先は勿論ジェットコースターだ。できる限り急ぎながら、しかし走らないように移動する。迷惑行為はご法度だ。[p]
 なんとかジェットコースターの待機列にたどり着いたときには、すでに結構な人が並んでいた。ざっと見て30分ほど待つだろう。人気を考えれば早いほうだ。[p]
@@ -544,7 +545,6 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^)tere.png"  ]
 [tb_start_text mode=1 ]
 っと、どこかで一回座るとするか、カフェやレストランのような施設もあるんだろう？」[p]
 #桃也
@@ -555,7 +555,6 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="5919320.jpg"  ]
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 #桃也
 「うぁーーー……椅子ってすごい……」[p]
@@ -566,6 +565,7 @@
 
 [_tb_end_text]
 
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
 #桃也
 「急にぶりっ子しないでください、気味が悪いです。」[p]
@@ -574,12 +574,11 @@
 
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/def.png"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(v-v).png"  ]
 [tb_start_text mode=1 ]
 うん、すまない。私のわがままに付き合ってくれてありがとう。」[p]
 [_tb_end_text]
 
-[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(v-v).png"  ]
 [tb_start_text mode=1 ]
 #桃也
 なぜ可愛く謝るのが俺へのお詫びになるのか理解しかねる。別に嬉しくなんてない。本当に。いやもう全く嬉しくないなー、録音してからかうネタにでもすればよかったなー。というか素直に謝れるなら始めからそうすればいいのに。[p]
@@ -595,6 +594,7 @@
 [_tb_end_text]
 
 [chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
+[chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/def.png"  ]
 [tb_start_text mode=1 ]
 一休みしたら、また別のところを回ろうか。オススメはあるかい？」[p]
 #桃也
@@ -614,12 +614,16 @@
 
 [tb_start_text mode=1 ]
 お化け屋敷、メリーゴーラウンド、コーヒーカップ、フリーフォール……とりあえず目に付いたアトラクションに片っ端から乗り込んで行った。いい加減三半規管がどうにかなりそうだ。コーヒーカップ全力でぶん回すのは男子同士のノリだと思ってた時期が俺にもありました……。[p]
-#空音
-「いやーすごいすごい！ 超楽しい！ もう一回行こう！」[p]
+
 
 [_tb_end_text]
 
 [chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^)tere.png"  ]
+[tb_start_text mode=1 ]
+#空音
+「いやーすごいすごい！ 超楽しい！ もう一回行こう！」[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #桃也
 「まじでかんべんしてください。」[p]
@@ -747,13 +751,14 @@
 憧れていた。だからこそ距離を置きたかった。自分が駄目な奴に思えてくるから。なのに容赦なく手を取って隣を歩くこの人に、惹かれないわけがなかった。[p]
 #桃也
 「本当に俺でいいんですか。後悔しても知りませんよ。」[p]
-#空音
-「後悔なんてさせるものか。」[p]
+
 
 [_tb_end_text]
 
 [chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/2.png"  ]
 [tb_start_text mode=1 ]
+#空音
+「後悔なんてさせるものか。[p]
 羽村くんこそ、私の意外な一面を見て幻滅したって離してやらないよ？」[p]
 [_tb_end_text]
 
@@ -781,18 +786,23 @@
 #空音
 「恋人になっての初デートは水族館がいいな。羽村くん、プランを練っておいてくれ。」[p]
 #桃也
-「初デートで水族館に行くと破局するって知ってましたか？ 空音先輩。」[p]
-#空音
-「そんなの都市伝説だろう？ 私たちでそんなことはないと証明してやろうじゃないか。[p]
+「初デートで水族館に行くと破局するって知ってましたか？　空音先輩。」[p]
+
 
 [_tb_end_text]
 
 [chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/(^▽^).png"  ]
 [tb_start_text mode=1 ]
-……え、羽村くん今私のこと名前で呼んだ？」[p]
+#空音
+「そんなの都市伝説だろう？　私たちでそんなことはないと証明してやろうじゃないか。[p]
+
 [_tb_end_text]
 
 [chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/4.png"  ]
+[tb_start_text mode=1 ]
+……え、羽村くん今私のこと名前で呼んだ？」[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #桃也
 うわーきょとん顔かわいー。[p]
@@ -813,7 +823,7 @@ FIN[p]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
-[movie  volume="100"  storage="roll2019.ogv"  ]
+[movie  volume="100"  storage="タイトル-01.ogv"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]

@@ -6,4 +6,5 @@
 [preload  storage="./data/fgimage/default/izuha_tatie.png"  ]
 [preload  storage="./data/fgimage/default/Rotoka_pra_egao_(1).png"  ]
 [preload  storage="./data/fgimage/default/namiko1_normal.png"  ]
+[preload  storage="./data/fgimage/default/namiko1_angry.png"  ]
 [return]

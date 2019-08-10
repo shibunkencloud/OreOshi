@@ -24,7 +24,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="134242350189613227634_BG261d_80.jpg"  ]
-[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/rinka_def2.png"  width="430"  height="752"  left="475"  top="-25"  reflect="false"  ]
+[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/rinka_def2.png"  width="681"  height="1192"  left="344"  top="-122"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
 おまたせ梨花ちゃん。ちょっとしたトラブルがあったけど解決したよ。[p]
@@ -60,6 +60,11 @@
 
 #梨花
 そうね。次はどこに行こうかしら♪[p]
+
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="0"  storage="chime_(online-audio-converter.com).ogg"  ]
+[tb_start_text mode=1 ]
 #校内放送
 ピンポンパンポ～ン♪[p]
 インフォメーションコーナーより、迷子のご連絡です。[p]
@@ -134,11 +139,11 @@
 
 [bg  time="1000"  method="crossfade"  storage="127012884266216319447_BG382a.jpg"  ]
 [tb_start_text mode=1 ]
-文化祭の終わった翌日、今日は片づけがあるから朝の補修も免除でいつもより余裕のある朝だったはずなのに俺はベッドから出られなかった。[p]
+文化祭の終わった翌日、今日は片づけがあるから朝の補習も免除でいつもより余裕のある朝だったはずなのに俺はベッドから出られなかった。[p]
 「青春の１ページ」なんてよく言うが、俺なんて1ページを埋めることすらできなかった。[p]
 彼女はさながら、描き切れずに消えてしまった青春の妖精だろうか……。[p]
 
-FIN[p]
+END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]

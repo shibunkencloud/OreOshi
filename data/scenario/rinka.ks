@@ -6,6 +6,7 @@
 
 *start
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="natsuyasuminotanken_(online-audio-converter.com).ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -55,7 +56,8 @@
 
 [_tb_end_text]
 
-[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/rinka_komarigao.png"  width="393"  height="688"  left="440"  top="40"  reflect="false"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
+[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/rinka_komarigao.png"  width="721"  height="1262"  left="317"  top="-144"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #少女
 ……おにーさん、なに？[p]
@@ -76,6 +78,7 @@
 [_tb_end_text]
 
 [chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="yuuenchi_(online-audio-converter.com).ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #少女
 ふーん。おにーさんは文化祭のスタッフさんなんだ。[p]
@@ -133,6 +136,8 @@
 
 *rinka1f
 
+[stopbgm  time="1000"  fadeout="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="natsuyasuminotanken_(online-audio-converter.com).ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #桃也
 あれ？ところで、梨花ちゃんはお友達とかお母さんと一緒じゃないの？[p]
@@ -155,7 +160,7 @@
 
 [_tb_end_text]
 
-[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_def.png"  ]
+[chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/rinka_def2.png"  ]
 [tb_start_text mode=1 ]
 #梨花
 ふーん、おにーさんが連れて行ってくれるんだ。[p]
@@ -230,7 +235,7 @@
 おにーさん、こっちこっちー！バスケ部の大盛り焼きそば屋だって！[p]
 あたしおなか減ってたし、大盛りなら丁度いいかも！食べたいな～。[p]
 
-
+#桃也
 薄々感じてはいたけどこの子、俺に奢らせることに対して何の躊躇もないな…。[p]
 しかも、「文化祭に家族を呼んだ実行委員が休憩時間に年の離れた妹と一緒に回ってあげてますよ」感を漂わせてるところも巧くて腹立つわ～。[p]
 てか、なんだよこの「大盛り焼きそば屋」って？[p]
@@ -442,6 +447,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="rouka.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #梨花
 さっきの輪投げはなかなか上手だったじゃない。おにーさんと一緒に文化祭を回るのも結構悪くないかもしれないってほんのちょ～っと思えてきたわ。[p]
@@ -470,6 +476,7 @@
 よく来たな……ここは死後の世界だーっ！！[p]
 [_tb_end_text]
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="fukakukuraiido_(online-audio-converter.com).ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="134242350189613227634_BG261d_80.jpg"  ]
 [chara_mod  name="rinka"  time="600"  cross="true"  storage="chara/10/Rinka_bibirigao.png"  ]
 [tb_start_text mode=1 ]
@@ -567,4 +574,5 @@
 
 [glink  color="black"  storage="rinka2.ks"  size="20"  text="いや、なんでもないよ。"  x="802"  y="312"  width=""  height=""  _clickable_img=""  target="*stat"  ]
 [glink  color="black"  storage="rinka1.ks"  size="20"  text="俺、行かなきゃいけない場所があるんだ。"  x="799"  y="358"  width=""  height=""  _clickable_img=""  target="*stat"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [s  ]

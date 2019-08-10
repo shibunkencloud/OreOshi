@@ -56,7 +56,7 @@
 文化祭も昨日で終わり、微妙に浮ついた空気が残っている中、またいつも通りの日常が戻ってきた。[p]
 [_tb_end_text]
 
-[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/suzune.png"  width="377"  height="678"  left="460"  top="41"  reflect="false"  ]
+[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/suzune.png"  width="456"  height="820"  left="435"  top="33"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #涼音
 「で、桃也。なんの話？」[p]
@@ -235,7 +235,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_tatie.png"  width="454"  height="642"  left="416"  top="67"  reflect="false"  ]
+[chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_tatie.png"  width="631"  height="892"  left="346"  top="18"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #泉葉
 「あら、やっぱり私たち運命の糸で結ばれてるんですよセンパイ」[p]
@@ -326,7 +326,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="129804755979516202652_BG26b_1280.jpg"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
-[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/suzune.png"  width="353"  height="636"  left="456"  top="68"  reflect="false"  ]
+[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/suzune.png"  width="393"  height="708"  left="453"  top="68"  reflect="false"  ]
 [tb_start_text mode=1 ]
 ああ、やっぱりいた。なんもない教室だったと思うが、何しに来たんだ？[p]
 そう思いつつドアの取っ手に手をかけた瞬間、教室の中から緊張した女子の声が聞こえてきた。[p]
@@ -401,7 +401,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="130899910378116321393_BG14b_1280.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="Spring_Riverside_2_(online-audio-converter.com).ogg"  ]
-[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/suzune.png"  width="353"  height="636"  left="456"  top="68"  reflect="false"  ]
+[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/suzune.png"  width="437"  height="787"  left="440"  top="45"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #涼音
 「あれ、待ってたの？」[p]
@@ -480,7 +480,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/微笑.png"  width="116"  height="209"  left="838"  top="287"  reflect="false"  ]
+[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/微笑.png"  width="116"  height="209"  left="761"  top="293"  reflect="false"  ]
 [tb_start_text mode=1 ]
 ちらっと涼音の方を見ると、同じ班の奴らとタクシーに乗るところだった。[p]
 ……結局、あれから今日に至るまで何一つおれのもやもやは解消されていない。[p]
@@ -548,7 +548,7 @@
 ！？まさかこの声は……。[p]
 [_tb_end_text]
 
-[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/微笑.png"  width="343"  height="617"  left="748"  top="50"  reflect="false"  ]
+[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/微笑.png"  width="519"  height="934"  left="435"  top="19"  reflect="false"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="eroge_(online-audio-converter.com).ogg"  ]
 [tb_start_text mode=1 ]
 #桃也
@@ -884,7 +884,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/照れ.png"  width="357"  height="642"  left="459"  top="80"  reflect="false"  ]
+[chara_show  name="suzune"  time="1000"  wait="true"  storage="chara/7/照れ.png"  width="451"  height="811"  left="441"  top="56"  reflect="false"  ]
 [tb_start_text mode=1 ]
 「……ばーか」[p]
 
@@ -901,7 +901,7 @@ FIN[p]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
-[movie  volume="100"  storage="roll_1.ogv"  skip="false"  ]
+[movie  volume="100"  storage="タイトル-01.ogv"  skip="false"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="sf.tsuzune=1"  name="tsuzune"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]

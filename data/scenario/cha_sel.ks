@@ -14,13 +14,20 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="500"  storage="default/0.png"  width="520"  height="695"  x="930"  y="40"  name="img_8"  _clickable_img=""  ]
-[tb_image_show  time="500"  storage="default/Rinka_def.png"  width="375"  height="657"  x="804"  y="71"  _clickable_img=""  name="img_9"  ]
-[tb_image_show  time="500"  storage="default/wakana_default.png"  width="487"  height="650"  x="581"  y="109"  _clickable_img=""  name="img_10"  ]
-[tb_image_show  time="500"  storage="default/suzune.png"  width="344"  height="619"  x="463"  y="84"  name="img_11"  _clickable_img=""  ]
-[tb_image_show  time="500"  storage="default/izuha_tatie.png"  width="447"  height="632"  x="202"  y="75"  name="img_12"  _clickable_img=""  ]
-[tb_image_show  time="500"  storage="default/Rotoka_pra_egao_(1).png"  width="409"  height="655"  x="54"  y="88"  _clickable_img=""  name="img_13"  ]
-[tb_image_show  time="500"  storage="default/namiko1_normal.png"  width="260"  height="585"  x="-25"  y="134"  _clickable_img=""  name="img_14"  ]
+[tb_image_show  time="500"  storage="default/0.png"  width="520"  height="695"  x="930"  y="40"  name="img_9"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/Rinka_def.png"  width="375"  height="657"  x="804"  y="71"  _clickable_img=""  name="img_10"  ]
+[tb_image_show  time="500"  storage="default/wakana_default.png"  width="487"  height="650"  x="581"  y="109"  _clickable_img=""  name="img_11"  ]
+[tb_image_show  time="500"  storage="default/suzune.png"  width="344"  height="619"  x="463"  y="84"  name="img_12"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/izuha_tatie.png"  width="447"  height="632"  x="202"  y="75"  name="img_13"  _clickable_img=""  ]
+[tb_image_show  time="500"  storage="default/Rotoka_pra_egao_(1).png"  width="409"  height="655"  x="54"  y="88"  _clickable_img=""  name="img_14"  ]
+[jump  storage="cha_sel.ks"  target="*n_oko"  cond="sf.clea_kaisu>2"  ]
+[tb_image_show  time="500"  storage="default/namiko1_normal.png"  width="260"  height="585"  x="-25"  y="134"  _clickable_img=""  name="img_16"  ]
+[jump  storage="cha_sel.ks"  target="*n_oko_fin"  ]
+*n_oko
+
+[tb_image_show  time="500"  storage="default/namiko1_angry.png"  width="266"  height="600"  x="-27"  y="127"  _clickable_img=""  name="img_19"  ]
+*n_oko_fin
+
 [clickable  storage="cha_sel.ks"  x="552"  y="-35"  width="195"  height="793"  target="*suzune"  _clickable_img=""  ]
 [clickable  storage="cha_sel.ks"  x="1110"  y="-29"  width="173"  height="776"  target="*sorane"  _clickable_img=""  ]
 [clickable  storage="cha_sel.ks"  x="170"  y="-39"  width="179"  height="810"  target="*rotoka"  _clickable_img=""  ]
@@ -32,7 +39,7 @@
 *sorane
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/0.png"  width="529"  height="705"  name="img_25"  x="379"  y="43"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/0.png"  width="529"  height="705"  name="img_31"  x="379"  y="43"  _clickable_img=""  ]
 [tb_show_message_window  ]
 [jump  storage="cha_sel.ks"  target="*sorane_ss"  cond="sf.tsorane==1"  ]
 [tb_start_text mode=4 ]
@@ -56,7 +63,7 @@
 *suzune
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/suzune.png"  width="380"  height="684"  x="462"  y="11"  _clickable_img=""  name="img_29"  ]
+[tb_image_show  time="1000"  storage="default/suzune.png"  width="380"  height="684"  x="462"  y="11"  _clickable_img=""  name="img_46"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 田鹿 涼音でよろしいですね？
@@ -73,7 +80,7 @@
 *rotoka
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/Rotoka_pra_egao_(1).png"  width="473"  height="757"  name="img_41"  x="406"  y="3"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/Rotoka_pra_egao_(1).png"  width="473"  height="757"  name="img_58"  x="406"  y="3"  _clickable_img=""  ]
 [tb_show_message_window  ]
 [tb_start_text mode=4 ]
 天神 ロトカでよろしいですね？
@@ -89,12 +96,20 @@
 [jump  storage="rotoka.ks"  target=""  ]
 *namiko
 
+[jump  storage="cha_sel.ks"  target="*nami_oko"  cond="sf.clea_kaisu>2"  ]
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/namiko1_normal.png"  width="307"  height="691"  name="img_53"  x="468"  y="44"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/namiko1_normal.png"  width="307"  height="691"  name="img_71"  x="468"  y="44"  _clickable_img=""  ]
+[jump  storage="cha_sel.ks"  target="*nami_oko_fin"  ]
+*nami_oko
+
+[tb_image_hide  time="1000"  ]
+[tb_image_show  time="1000"  storage="default/namiko1_angry.png"  width="654"  height="1472"  name="img_53"  x="339"  y="-63"  _clickable_img=""  ]
+*nami_oko_fin
+
 [tb_show_message_window  ]
 [tb_start_text mode=3 ]
 谷中 なみ子でよろしいですね？[r]
-（このシナリオは他キャラクタをプレイしてから遊ぶことを強くお勧めします）[r]
+[font bold="true"]このシナリオは他キャラクタをプレイしてから遊ぶことを強くお勧めします[resetfont][r]
 [_tb_end_text]
 
 [glink  color="black"  storage="cha_sel.ks"  size="20"  target="*sel"  text="いいえ"  x="865"  y="358"  width=""  height=""  _clickable_img=""  ]

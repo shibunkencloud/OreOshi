@@ -25,7 +25,7 @@ sf.menu_flg=0
 
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[bg  storage="unlim-title.jpg"  ]
+[bg  storage="unlim-title.png"  ]
 *title
 
 [glink  color="black"  text="RUN"  x="590"  y="246"  size="20"  target="*namiko2"  width=""  height=""  _clickable_img=""  storage="namiko2.ks"  ]

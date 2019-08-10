@@ -1,11 +1,12 @@
 [_tb_system_call storage=system/_title_screen.ks]
 
+[tb_eval  exp="sf.clea_kaisu=0"  name="clea_kaisu"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 *til
 
 [delay  speed="30"  ]
 [tb_start_tyrano_code]
-[if exp=sf.game_clea==null]
-sf.game_clea=0
+[if exp=sf.clea_kaisu==null]
+sf.clea_kaisu=0
 [endif]
 [_tb_end_tyrano_code]
 

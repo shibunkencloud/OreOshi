@@ -6,6 +6,7 @@
 
 *stat
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="mattarikibun.ogg"  fadein="true"  ]
 [tb_image_hide  time="1000"  ]
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
@@ -213,7 +214,7 @@ SSR、いやURかな？　とにかく写真撮っておこう。」[p]
 #空音
 「…………ん……。」[p]
 #桃也
-お、もう一押しか？今までより少し強めに揺する。[p]
+お、もう一押しか？　今までより少し強めに揺する。[p]
 「会長、起きてくださいってば。」[p]
 [_tb_end_text]
 
@@ -229,7 +230,7 @@ SSR、いやURかな？　とにかく写真撮っておこう。」[p]
 [chara_mod  name="sorane"  time="600"  cross="true"  storage="chara/1/kiri.png"  ]
 [font  size="28"  color="0xffffff"  ]
 [tb_start_text mode=1 ]
-思春期の健全な青少年なら恋人との『ドキッ☆居眠りイベント』を攻略したまえよ！[p]
+思春期の健全な青少年なら恋人との『ドキッ☆居眠りイベント』を攻略したまえよ！」[p]
 #桃也
 「あんたさてはずっと起きてたな？！」[p]
 [_tb_end_text]
@@ -365,7 +366,7 @@ SSR、いやURかな？　とにかく写真撮っておこう。」[p]
 #桃也
 「賞もらったのはなんとなく覚えてましたけど、そんなことがあったんですか……。同じ学校なのに案外知らないものですね。」[p]
 #空音
-「無くなって初めてそこに何かがあったことに気づくなんて、街中で結構体感してるだろう？それと一緒さ。関心の薄いものには精々無意識で見ている景色程度の認識しかない。[p]
+「無くなって初めてそこに何かがあったことに気づくなんて、街中で結構体感してるだろう？　それと一緒さ。関心の薄いものには精々無意識で見ている景色程度の認識しかない。[p]
 もしかしたら無くなっても気づかない、なんてこともあるだろうね。結局内部の話なのさ。外部が後になってとやかく言ったところで完結してる話だ。[p]
 当事者になってみれば、違う景色が見られるだろうがね。」[p]
 #桃也
@@ -401,6 +402,7 @@ SSR、いやURかな？　とにかく写真撮っておこう。」[p]
 なるほど、心臓に悪い。[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide  name="sorane"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

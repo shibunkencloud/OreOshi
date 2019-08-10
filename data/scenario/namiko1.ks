@@ -8,7 +8,7 @@
 [tb_eval  exp="f.nmkflg=0"  name="nmkflg"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [tb_eval  exp="f.nmkloop=0"  name="nmkloop"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
 [hidemessage  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="269"  height="607"  left="526"  top="155"  reflect="false"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="263"  height="593"  left="499"  top="142"  reflect="false"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #桃也
@@ -42,8 +42,9 @@
 
 [chara_hide  name="namiko"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="130899910378116321393_BG14b_1280.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_healing09_(1).ogg"  fadein="true"  ]
 [chara_mod  name="namiko"  time="600"  cross="true"  storage="chara/9/namiko1_normal.png"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="269"  height="607"  left="526"  top="155"  reflect="false"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="455"  height="1026"  left="437"  top="65"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #なみ子
 「桃也さん,桃也さん」[p]
@@ -94,7 +95,7 @@
 
 [chara_hide  name="namiko"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="BG20c_80.jpg"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="295"  height="666"  left="495"  top="153"  reflect="false"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko1_normal.png"  width="498"  height="1125"  left="424"  top="-10"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也＆なみ子
 「ただいま〜」「帰りました〜」[p]
@@ -148,7 +149,7 @@
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
 [chara_mod  name="namiko"  time="600"  cross="true"  storage="chara/9/namiko2_normal.png"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko2_normal.png"  width="323"  height="728"  left="471"  top="79"  reflect="false"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko2_normal.png"  width="393"  height="885"  left="453"  top="-37"  reflect="false"  ]
 [tb_start_text mode=1 ]
 ー夕食後[p]
 
@@ -180,6 +181,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [chara_hide  name="namiko"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -242,8 +244,9 @@
 
 [_tb_end_text]
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="morning2-2_(online-audio-converter.com).ogg"  fadein="true"  ]
 [chara_mod  name="namiko"  time="600"  cross="true"  storage="chara/9/namiko2_normal.png"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko2_normal.png"  width="323"  height="728"  left="471"  top="79"  reflect="false"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  storage="chara/9/namiko2_normal.png"  width="529"  height="1192"  left="421"  top="-22"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
 「ああ、おはようなみ子。今日も早いな」[p]
@@ -267,8 +270,10 @@
 
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
 [mask_off  time="1000"  effect="fadeOut"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="chiisanaashiato_(online-audio-converter.com).ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #桃也＆なみ子
 「ごちそうさま（でした）〜！」[p]
@@ -315,7 +320,7 @@
 [_tb_end_text]
 
 [chara_mod  name="namiko"  time="600"  cross="true"  storage="chara/9/namiko1_normal.png"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  left="465"  top="75"  width="347"  height="780"  reflect="false"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  left="419"  top="-28"  width="512"  height="1151"  reflect="false"  ]
 [tb_start_text mode=1 ]
 
 #桃也
@@ -390,7 +395,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="129759441592316220569_BG41b_1280.jpg"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  left="486"  top="127"  width="273"  height="615"  reflect="false"  storage="chara/9/namiko1_normal.png"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  left="566"  top="142"  width="232"  height="523"  reflect="false"  storage="chara/9/namiko1_normal.png"  ]
 [tb_start_text mode=1 ]
 #桃也
 それから、俺となみ子は近場の博物館を周り、ゆっくりとしたデートを満喫した。[p]
@@ -414,8 +419,10 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_mod  name="namiko"  time="600"  cross="true"  storage="chara/9/namiko1_normal.png"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="town_park_c.jpg"  ]
-[chara_show  name="namiko"  time="1000"  wait="true"  left="465"  top="75"  width="347"  height="780"  reflect="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="morning2_(online-audio-converter.com).ogg"  ]
+[chara_show  name="namiko"  time="1000"  wait="true"  left="413"  top="-15"  width="522"  height="1174"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #なみ子
 「ねえねえ桃也さん.」[p]
@@ -478,8 +485,9 @@
 *loop
 
 [tb_eval  exp="f.nmkloop+=1"  name="nmkloop"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="namiko1.ks"  target="*nmkunlm"  cond="f.nmkloop==15"  ]
-[glink  color="white"  storage="namiko1.ks"  size="20"  text="結婚しよう"  x="543"  y="195"  width=""  height=""  _clickable_img=""  target="*nmkfin"  ]
+[glink  color="white"  storage="namiko1.ks"  size="20"  text="結婚しよう"  x="557"  y="181"  width=""  height=""  _clickable_img=""  target="*nmkfin"  ]
 [glink  color="black"  storage="namiko1.ks"  size="20"  text="なみ子、お前って……"  target="*loop"  x="1002"  y="671"  width="349"  height="20"  _clickable_img=""  ]
 [s  ]
 [s  ]
@@ -553,6 +561,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]
 *nmkunlm
 
@@ -565,7 +574,7 @@
 [_tb_end_text]
 
 [jump  storage="namiko1.ks"  target="*fin3"  cond="f.nmkflg!=2"  ]
-[jump  storage="namiko1.ks"  target="*fin3"  cond="sf.clea_kaisu<3"  ]
+[jump  storage="namiko1.ks"  target="*fin3"  cond="sf.clea_kaisu<2"  ]
 [chara_hide  name="namiko"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 

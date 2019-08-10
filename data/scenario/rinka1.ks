@@ -2,6 +2,7 @@
 
 *stat
 
+[playbgm  volume="100"  time="1000"  loop="true"  fadein="true"  storage="apollo_(online-audio-converter.com).ogg"  ]
 [tb_start_text mode=1 ]
 #桃也
 梨花ちゃんごめんね。俺、どうしても今すぐ行かなきゃいけない場所があるんだ。[p]
@@ -99,6 +100,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="139304179804528354228_bg441a_1280.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #桃也
 あ～、ねみぃ。今日は午前の時間割が文化祭の片づけだから朝の補習が免除されてていつもより遅い時間に登校してるはずなのにな～。[p]
@@ -108,7 +110,8 @@
 
 [_tb_end_text]
 
-[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/Rinka_def.png"  width="3000"  height="5252"  left="429"  top="-37"  reflect="false"  ]
+[chara_show  name="rinka"  time="1000"  wait="true"  storage="chara/10/Rinka_def.png"  width="702"  height="1229"  left="322"  top="-156"  reflect="false"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="natsuyasuminotanken_(online-audio-converter.com).ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #少女
 まったくもう、どこ見て歩いてるのよ、おにーさん。[p]
@@ -121,11 +124,12 @@ FIN[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
-[movie  volume="100"  storage="roll2019.ogv"  ]
-[stopbgm  time="1000"  ]
+[movie  volume="100"  storage="タイトル-01.ogv"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="sf.trinka=1"  name="trinka"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
 [jump  storage="title_screen.ks"  target="*til"  ]

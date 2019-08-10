@@ -48,7 +48,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="izuha"  time="10"  wait="true"  storage="chara/11/izuha_yandere.png"  width="639"  height="905"  left="339"  top="2"  reflect="false"  ]
+[chara_show  name="izuha"  time="10"  wait="true"  storage="chara/11/izuha_yandere.png"  width="754"  height="1068"  left="305"  top="-11"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #泉葉
 「はろー、センパイ♪」[p]
@@ -86,4 +86,5 @@ END[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
-[jump  storage="suzune.ks"  target="*fin"  ]
+[tb_hide_message_window  ]
+[jump  storage="title_screen.ks"  target="*til"  ]

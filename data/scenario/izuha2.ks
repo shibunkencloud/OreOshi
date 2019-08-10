@@ -2,6 +2,7 @@
 
 *stat
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Spring_Riverside_2_(online-audio-converter.com).ogg"  ]
 [chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_nakigao.png"  width="455"  height="643"  left="426"  top="52"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
@@ -24,6 +25,7 @@
 [_tb_end_text]
 
 [chara_mod  name="izuha"  time="600"  cross="true"  storage="chara/11/izuha_waruikao.png"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 「センパイといる時間が私にとっての全てでした」[p]
 #桃也

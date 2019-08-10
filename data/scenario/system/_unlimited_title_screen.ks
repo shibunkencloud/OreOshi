@@ -1,2 +1,2 @@
-[preload  storage="./data/bgimage/unlim-title.jpg"  ]
+[preload  storage="./data/bgimage/unlim-title.png"  ]
 [return]

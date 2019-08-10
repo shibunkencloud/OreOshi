@@ -2,6 +2,7 @@
 
 *stat
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="Spring_Riverside_2_(online-audio-converter.com).ogg"  ]
 [chara_show  name="izuha"  time="1000"  wait="true"  storage="chara/11/izuha_tatie.png"  width="434"  height="615"  left="424"  top="48"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #桃也
@@ -107,6 +108,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #
 …。[p]
@@ -198,7 +200,7 @@ FIN[p]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_maoudamashii_piano14.ogg"  ]
-[movie  volume="100"  storage="roll2019.ogv"  ]
+[movie  volume="100"  storage="タイトル-01.ogv"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
 [tb_eval  exp="sf.tizuha=1"  name="tizuha"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_eval  exp="sf.clea_kaisu+=1"  name="clea_kaisu"  cmd="+="  op="t"  val="1"  val_2="undefined"  ]
